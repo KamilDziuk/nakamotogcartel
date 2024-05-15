@@ -1,7 +1,7 @@
 // loading start
 
-$(document).ready(function() {
-    setTimeout(function() {
+$(document).ready(() => {
+    setTimeout(() => {
       $('#bigloading').addClass('ready');
     }, 1000);
 });
