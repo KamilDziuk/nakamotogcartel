@@ -268,7 +268,21 @@ a {
 
 /* movable block end */
 
+@media (max-width: 2000px){
 
+
+
+  /*  moving text start */
+.movingText {
+ 
+
+  margin-left: 245px;
+
+}
+
+  /*  moving text end */
+
+}
 
 @media (max-width: 1630px) {
 
@@ -359,7 +373,7 @@ footer
 .menuButtomTwo
 {
  top: 15%;
- left: 70%;
+ left: 89%;
  font-size: 30px;
   width: 8rem;
   margin: 0rem 1rem;
@@ -477,6 +491,20 @@ a {
 }
 @media (max-width: 1515px) {
 
+
+  /* button two on the main barr start */
+.menuButtomTwo
+{
+ top: 15%;
+ left: 85%;
+ font-size: 30px;
+  width: 8rem;
+  margin: 0rem 1rem;
+  padding: 0.50rem 0rem;
+
+}
+/* button two on the main barr end */
+
   /* moving text start */
   .movingText {
    
@@ -587,7 +615,7 @@ display: none;
   .menuButtomTwo
   {
    top: 15%;
-   left: 70%;
+   left: 80%;
    font-size: 30px;
     width: 8rem;
     margin: 0rem 1rem;
@@ -610,7 +638,7 @@ display: none;
   .clockOnTheTaskbar
   {
   
-    left: 35%;
+    left: 50%;
     top: 19%;
     font-size: 30px;
   }
@@ -620,7 +648,7 @@ display: none;
   .fa
   {
   
-    left: 30%;
+    left: 46%;
     top: 18%;
     font-size: 45px !important; 
   
@@ -640,6 +668,49 @@ display: none;
 
     }
 /* movable block end */
+
+
+
+
+ /* button two on the main barr start */
+ .menuButtomTwo
+ {
+  top: 15%;
+  left:75%;
+  font-size: 30px;
+   width: 8rem;
+   margin: 0rem 1rem;
+   padding: 0.50rem 0rem;
+ 
+ }
+ /* button two on the main barr end */
+ 
+ 
+ 
+ 
+
+ 
+ 
+ /* clock on the top bar start */
+ .clockOnTheTaskbar
+ {
+ 
+   left: 40%;
+   top: 19%;
+   font-size: 30px;
+ }
+ /* clock on the top bar end */
+ 
+ /* clock icone start */
+ .fa
+ {
+ 
+   left:30%;
+   top: 18%;
+   font-size: 45px !important; 
+ 
+ }
+ /* clock icone end  */
   }
 
 
@@ -733,7 +804,7 @@ display: none;
   .menuButtomTwo
   {
    top: 15%;
-   left: 60%;
+   left:75%;
    font-size: 30px;
     width: 8rem;
     margin: 0rem 1rem;
@@ -752,7 +823,7 @@ display: none;
   .clockOnTheTaskbar
   {
   
-    left: 35%;
+    left: 40%;
     top: 19%;
     font-size: 30px;
   }
@@ -762,7 +833,7 @@ display: none;
   .fa
   {
   
-    left: 27%;
+    left:30%;
     top: 18%;
     font-size: 45px !important; 
   
@@ -861,7 +932,7 @@ display: none;
     .menuButtomTwo
     {
      top: 15%;
-     left: 60%;
+     left: 74%;
      font-size: 30px;
       width: 8rem;
       margin: 0rem 1rem;
@@ -876,7 +947,7 @@ display: none;
     .fa
     {
     
-      left: 38%;
+      left: 47%;
       top: 18%;
       font-size: 45px !important; 
     
@@ -995,7 +1066,7 @@ display: none;
     .menuButtomTwo
     {
      top: 15%;
-     left: 60%;
+     left: 67%;
      font-size: 30px;
       width: 8rem;
       margin: 0rem 1rem;
@@ -1010,7 +1081,7 @@ display: none;
     .fa
     {
     
-      left: 38%;
+      left: 45%;
       top: 18%;
       font-size: 45px !important; 
     
@@ -1123,7 +1194,7 @@ display: none;
     .menuButtomTwo
     {
      top: 15%;
-     left: 45%;
+     left: 70%;
      font-size: 20px;
       width: 6rem;
       margin: 0rem 1rem;
@@ -1138,7 +1209,7 @@ display: none;
     .fa
     {
     
-      left: 33%;
+      left: 45%;
       top: 18%;
       font-size: 45px !important; 
     
