@@ -77,11 +77,11 @@ return this._clockOnTheTaskbar;
 
 if( this._hours < 12)
   {
-    this._suffix  = "PM"
+    this._suffix  = "AM";
   }
   else
   {
-    this._suffix  = "AM"
+    this._suffix  = "PM";
   }
 
 

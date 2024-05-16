@@ -115,4 +115,90 @@ color: #ffffff;
     opacity: 0;
   }
 
-    /* loadingText start */
+  
+
+
+    @media (max-width: 1195px){
+
+        /* loadingText start */
+      .loadingText   {
+    
+      
+        top: 40%;
+        left: 40%;
+        font-size: 40px;
+  
+    
+      }
+
+
+
+      #loading {
+      
+        top: 50%;
+        left: 46%;
+    
+    
+      }
+
+        /* loadingText end */
+    } 
+
+    @media (max-width: 830px){
+
+
+
+            /* loadingText start */
+            .loadingText   {
+    
+      
+              top: 40%;
+              left: 38%;
+              font-size: 35px;
+        
+          
+            }
+      
+      
+      
+            #loading {
+            
+              top: 50%;
+              left: 46%;
+          
+          
+            }
+      
+              /* loadingText end */
+          } 
+
+          @media (max-width: 695px){
+            .loadingText   {
+    
+      
+              top: 40%;
+              left: 35%;
+              font-size: 35px;
+        
+          
+            }
+      
+
+          }
+          
+
+          @media (max-width: 380px) {
+
+
+            .loadingText   {
+    
+      
+              top: 40%;
+              left: 25%;
+              font-size: 35px;
+        
+          
+            }
+
+          }
+         

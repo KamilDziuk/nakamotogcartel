@@ -106,6 +106,35 @@ footer
   box-shadow:-3px -3px 0 0 #fff, 2px 2px 0 1px #a7a7a7
 
 }
+/* button on the main barr end */
+
+
+/* button two on the main barr start */
+.menuButtomTwo
+{
+ top: 15%;
+ left: 85%;
+ font-size: 30px;
+ border: none;
+  position: absolute;
+  display: flex;
+  width: 8rem;
+  margin: 0rem 1rem;
+  padding: 0.50rem 0rem;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Pixelify Sans", sans-serif;
+  box-shadow:-3px -3px 0 0 #fff, 2px 2px 0 1px #a7a7a7
+
+}
+/* button two on the main barr end */
+
+
+
+
 /* fence start */
 .blockLeft
 {
@@ -113,8 +142,8 @@ footer
   font-size: 30px;
   border: none;
    position: absolute;
-    left: 10.8%;
-   width: 1rem;
+    left: 10.9%;
+   width: 4px;
    height:2.3rem;
    margin: 0rem 1rem;
    padding: 0.50rem 0rem;
@@ -130,8 +159,8 @@ footer
   font-size: 30px;
   border: none;
    position: absolute;
-    left: 60%;
-   width: 1rem;
+    left: 65%;
+    width: 4px;
    height:2.3rem;
    margin: 0rem 1rem;
    padding: 0.50rem 0rem;
@@ -178,10 +207,11 @@ a {
  
   top:  15px;
   height: 150px;
-  max-width: 48%;
-  margin-left: 200px;
+  max-width: 53%;
+  margin-left: 195px;
   overflow: hidden;
   position: relative;
+  z-index: 0;
 }
 
 .movingText div {
@@ -237,3 +267,1138 @@ a {
 }
 
 /* movable block end */
+
+
+
+@media (max-width: 1630px) {
+
+
+/* icons and text for ico start */
+.textIconEnvelope
+{
+  left: 3.7%;
+  top: 70%;
+  font-size: 30px;
+  
+}
+
+
+.textIconPortfolio
+{
+  
+  left: 2.5%;
+
+  top: 31%;
+  font-size: 30px;
+}
+
+
+
+
+.textIconServices
+{
+ 
+  left: 2.5%;
+  top: 50%;
+  font-size: 30px;
+}
+
+.envelope
+{
+
+left: 5%;
+top: 60%;
+width: 70px;
+height: 70px;
+}
+.portfolio
+{
+left: 5%;
+top: 20%;
+width: 70px;
+height: 70px;
+}
+
+
+.services
+{
+left: 5%;
+top: 40%;
+width: 70px;
+height: 70px;
+}
+
+
+/* icons and text for ico end */
+
+/* main bar start */
+footer
+{
+  top: 86%;
+  height: 200px;
+  width: 100%;
+  padding: 0;
+}
+/* main bar end */
+
+/* button on the main barr start */
+.menuButtom
+{
+ top: 15%;
+ font-size: 30px;
+  width: 8rem;
+  margin: 0rem 1rem;
+  padding: 0.50rem 0rem;
+
+
+}
+/* button on the main barr end */
+
+
+/* button two on the main barr start */
+.menuButtomTwo
+{
+ top: 15%;
+ left: 70%;
+ font-size: 30px;
+  width: 8rem;
+  margin: 0rem 1rem;
+  padding: 0.50rem 0rem;
+
+}
+/* button two on the main barr end */
+
+
+
+
+/* fence start */
+.blockLeft
+{
+  top: 15%;
+  font-size: 30px;
+
+    left: 10.9%;
+   width: 4px;
+   height:2.3rem;
+   margin: 0rem 1rem;
+   padding: 0.50rem 0rem;
+
+   
+}
+.blockRight
+{
+
+  top: 15%;
+  font-size: 30px;
+    left: 50%;
+    width: 4px;
+   height:2.3rem;
+   margin: 0rem 1rem;
+   padding: 0.50rem 0rem;
+
+}
+/* fence end  */
+
+
+
+/* button on the main bar end */
+
+
+/* clock on the top bar start */
+.clockOnTheTaskbar
+{
+
+  left: 55.6%;
+  top: 19%;
+  font-size: 30px;
+}
+/* clock on the top bar end */
+
+/* clock icone start */
+.fa
+{
+
+  left: 52%;
+  top: 18%;
+  font-size: 45px !important; 
+
+}
+/* clock icone end  */
+a {
+ background-color: rgba(255, 228, 196, 0);
+}
+
+
+/*  moving text start */
+.movingText {
+ 
+  top:  15px;
+  height: 150px;
+  max-width: 38%;
+  margin-left: 200px;
+
+}
+
+.movingText div {
+  width: 200%;
+  height: 150px;
+
+}
+
+.movingText span {
+  width: 50%;
+  font-size: 20px;
+  padding-top:30px;
+  letter-spacing: 2px;
+}
+
+/*  moving text end */
+
+/* movable block end */
+
+#container {
+  perspective: 25px;
+}
+
+#inner {
+  margin-top: 10%;
+  left: 40%;
+  width: 20em;
+  height: 18em;
+
+}
+
+/* movable block end */
+
+
+
+
+
+}
+@media (max-width: 1515px) {
+
+  /* moving text start */
+  .movingText {
+   
+display: none;
+  
+  }
+  /* moving text end */
+
+    /* fence start */
+    .blockLeft
+    {
+      display: none;
+    }
+    .blockRight
+    {
+      display: none;
+    }
+    /* fence end  */
+  
+}
+
+@media (max-width: 1195px) {
+
+
+  /* icons and text for ico start */
+  .textIconEnvelope
+  {
+    left: 3.7%;
+    top: 70%;
+    font-size: 30px;
+    
+  }
+  
+  
+  .textIconPortfolio
+  {
+    
+    left: 2.5%;
+  
+    top: 31%;
+    font-size: 30px;
+  }
+  
+  
+  
+  
+  .textIconServices
+  {
+   
+    left: 2.5%;
+    top: 50%;
+    font-size: 30px;
+  }
+  
+  .envelope
+  {
+  
+  left: 5%;
+  top: 60%;
+  width: 70px;
+  height: 70px;
+  }
+  .portfolio
+  {
+  left: 5%;
+  top: 20%;
+  width: 70px;
+  height: 70px;
+  }
+  
+  
+  .services
+  {
+  left: 5%;
+  top: 40%;
+  width: 70px;
+  height: 70px;
+  }
+  
+  
+  /* icons and text for ico end */
+  
+  /* main bar start */
+  footer
+  {
+    top: 86%;
+    height: 200px;
+    width: 100%;
+    padding: 0;
+  }
+  /* main bar end */
+  
+  /* button on the main barr start */
+  .menuButtom
+  {
+   top: 15%;
+   font-size: 30px;
+    width: 8rem;
+    margin: 0rem 1rem;
+    padding: 0.50rem 0rem;
+  
+  
+  }
+  /* button on the main barr end */
+  
+  
+  /* button two on the main barr start */
+  .menuButtomTwo
+  {
+   top: 15%;
+   left: 70%;
+   font-size: 30px;
+    width: 8rem;
+    margin: 0rem 1rem;
+    padding: 0.50rem 0rem;
+  
+  }
+  /* button two on the main barr end */
+  
+  
+  
+  
+
+  
+  
+  
+  /* button on the main bar end */
+  
+  
+  /* clock on the top bar start */
+  .clockOnTheTaskbar
+  {
+  
+    left: 35%;
+    top: 19%;
+    font-size: 30px;
+  }
+  /* clock on the top bar end */
+  
+  /* clock icone start */
+  .fa
+  {
+  
+    left: 30%;
+    top: 18%;
+    font-size: 45px !important; 
+  
+  }
+  /* clock icone end  */
+  }
+
+  @media (max-width: 830px) {
+
+/* movable block start */
+    #inner {
+      position: relative;
+      margin-top: 20%;
+      left: 35%;
+      width: 20em;
+      height: 18em;
+
+    }
+/* movable block end */
+  }
+
+
+
+
+  @media (max-width: 695px) {
+
+  /* icons and text for ico start */
+  .textIconEnvelope
+  {
+    left: 3.7%;
+    top: 70%;
+    font-size: 30px;
+    
+  }
+  
+  
+  .textIconPortfolio
+  {
+    
+    left: 2.5%;
+  
+    top: 31%;
+    font-size: 30px;
+  }
+  
+  
+  
+  
+  .textIconServices
+  {
+   
+    left: 2.5%;
+    top: 50%;
+    font-size: 30px;
+  }
+  
+  .envelope
+  {
+  
+  left: 5%;
+  top: 60%;
+  width: 70px;
+  height: 70px;
+  }
+  .portfolio
+  {
+  left: 5%;
+  top: 20%;
+  width: 70px;
+  height: 70px;
+  }
+  
+  
+  .services
+  {
+  left: 5%;
+  top: 40%;
+  width: 70px;
+  height: 70px;
+  }
+  
+  
+  /* icons and text for ico end */
+  
+  /* main bar start */
+  footer
+  {
+    top: 86%;
+    height: 200px;
+    width: 100%;
+    padding: 0;
+  }
+  /* main bar end */
+  
+  /* button on the main barr start */
+  .menuButtom
+  {
+   top: 15%;
+   font-size: 30px;
+    width: 8rem;
+    margin: 0rem 1rem;
+    padding: 0.50rem 0rem;
+  
+  
+  }
+  /* button on the main barr end */
+  
+  
+  /* button two on the main barr start */
+  .menuButtomTwo
+  {
+   top: 15%;
+   left: 60%;
+   font-size: 30px;
+    width: 8rem;
+    margin: 0rem 1rem;
+    padding: 0.50rem 0rem;
+  
+  }
+  /* button two on the main barr end */
+  
+  
+  
+  
+
+  
+  
+  /* clock on the top bar start */
+  .clockOnTheTaskbar
+  {
+  
+    left: 35%;
+    top: 19%;
+    font-size: 30px;
+  }
+  /* clock on the top bar end */
+  
+  /* clock icone start */
+  .fa
+  {
+  
+    left: 27%;
+    top: 18%;
+    font-size: 45px !important; 
+  
+  }
+  /* clock icone end  */
+  }
+
+  @media (max-width: 638px) {
+
+
+
+
+    /* icons and text for ico start */
+    .textIconEnvelope
+    {
+      left: 3.7%;
+      top: 70%;
+      font-size: 30px;
+      
+    }
+    
+    
+    .textIconPortfolio
+    {
+      
+      left: 2.5%;
+    
+      top: 31%;
+      font-size: 30px;
+    }
+    
+    
+    
+    
+    .textIconServices
+    {
+     
+      left: 2.5%;
+      top: 50%;
+      font-size: 30px;
+    }
+    
+    .envelope
+    {
+    
+    left: 5%;
+    top: 60%;
+    width: 70px;
+    height: 70px;
+    }
+    .portfolio
+    {
+    left: 5%;
+    top: 20%;
+    width: 70px;
+    height: 70px;
+    }
+    
+    
+    .services
+    {
+    left: 5%;
+    top: 40%;
+    width: 70px;
+    height: 70px;
+    }
+    
+    
+    /* icons and text for ico end */
+    
+    /* main bar start */
+    footer
+    {
+      top: 86%;
+      height: 200px;
+      width: 100%;
+      padding: 0;
+    }
+    /* main bar end */
+    
+    /* button on the main barr start */
+    .menuButtom
+    {
+     top: 15%;
+     font-size: 30px;
+      width: 8rem;
+      margin: 0rem 1rem;
+      padding: 0.50rem 0rem;
+    
+    
+    }
+    /* button on the main barr end */
+    
+    
+    /* button two on the main barr start */
+    .menuButtomTwo
+    {
+     top: 15%;
+     left: 60%;
+     font-size: 30px;
+      width: 8rem;
+      margin: 0rem 1rem;
+      padding: 0.50rem 0rem;
+    
+    }
+    /* button two on the main barr end */
+    
+
+    
+    /* clock icone start */
+    .fa
+    {
+    
+      left: 38%;
+      top: 18%;
+      font-size: 45px !important; 
+    
+    }
+    /* clock icone end  */
+
+
+
+
+
+
+
+
+
+
+      /* clock on the top bar start */
+  .clockOnTheTaskbar
+  {
+  
+  display: none;
+  }
+  /* clock on the top bar end */
+
+  }
+
+
+
+  @media (max-width: 577px) {
+
+
+
+
+    /* icons and text for ico start */ 
+    .textIconEnvelope
+    {
+      left: 3.7%;
+      top: 72%;
+      font-size: 20px;
+      
+    }
+    
+    
+    .textIconPortfolio
+    {
+      
+      left: 2.5%;
+    
+      top: 33%;
+      font-size: 20px;
+    }
+    
+    
+    
+    
+    .textIconServices
+    {
+     
+      left: 2.5%;
+      top: 52%;
+      font-size: 20px;
+    }
+    
+    .envelope
+    {
+    
+    left: 5%;
+    top: 60%;
+    width: 60px;
+    height: 60px;
+    }
+    .portfolio
+    {
+    left: 5%;
+    top: 20%;
+    width: 60px;
+    height: 60px;
+    }
+    
+    
+    .services
+    {
+    left: 5%;
+    top: 40%;
+    width: 60px;
+    height: 60px;
+    }
+    
+    
+    /* icons and text for ico end */
+    
+    /* main bar start */
+    footer
+    {
+      top: 86%;
+      height: 200px;
+      width: 100%;
+      padding: 0;
+    }
+    /* main bar end */
+    
+    /* button on the main barr start */
+    .menuButtom
+    {
+     top: 15%;
+     font-size: 30px;
+      width: 8rem;
+      margin: 0rem 1rem;
+      padding: 0.50rem 0rem;
+    
+    
+    }
+    /* button on the main barr end */
+    
+    
+    /* button two on the main barr start */
+    .menuButtomTwo
+    {
+     top: 15%;
+     left: 60%;
+     font-size: 30px;
+      width: 8rem;
+      margin: 0rem 1rem;
+      padding: 0.50rem 0rem;
+    
+    }
+    /* button two on the main barr end */
+    
+
+    
+    /* clock icone start */
+    .fa
+    {
+    
+      left: 38%;
+      top: 18%;
+      font-size: 45px !important; 
+    
+    }
+    /* clock icone end  */
+
+    #inner {
+      position: relative;
+      margin-top: 20%;
+      left: 35%;
+      width: 15em;
+      height: 18em;
+
+    }
+
+
+  }
+
+
+
+  
+  @media (max-width: 476px) {
+
+
+
+
+    /* icons and text for ico start */ 
+    .textIconEnvelope
+    {
+      left: 3.7%;
+      top: 72%;
+      font-size: 20px;
+      
+    }
+    
+    
+    .textIconPortfolio
+    {
+      
+      left: 2.5%;
+    
+      top: 33%;
+      font-size: 20px;
+    }
+    
+    
+    
+    
+    .textIconServices
+    {
+     
+      left: 2.5%;
+      top: 52%;
+      font-size: 20px;
+    }
+    
+    .envelope
+    {
+    
+    left: 5%;
+    top: 60%;
+    width: 60px;
+    height: 60px;
+    }
+    .portfolio
+    {
+    left: 5%;
+    top: 20%;
+    width: 60px;
+    height: 60px;
+    }
+    
+    
+    .services
+    {
+    left: 5%;
+    top: 40%;
+    width: 60px;
+    height: 60px;
+    }
+    
+    
+    /* icons and text for ico end */
+    
+    /* main bar start */
+    footer
+    {
+      top: 86%;
+      height: 200px;
+      width: 100%;
+      padding: 0;
+    }
+    /* main bar end */
+    
+    /* button on the main barr start */
+    .menuButtom
+    {
+     top: 15%;
+     font-size: 20px;
+      width: 6rem;
+      margin: 0rem 1rem;
+      padding: 0.50rem 0rem;
+    
+    
+    }
+    /* button on the main barr end */
+    
+    
+    /* button two on the main barr start */
+    .menuButtomTwo
+    {
+     top: 15%;
+     left: 45%;
+     font-size: 20px;
+      width: 6rem;
+      margin: 0rem 1rem;
+      padding: 0.50rem 0rem;
+    
+    }
+    /* button two on the main barr end */
+    
+
+    
+    /* clock icone start */
+    .fa
+    {
+    
+      left: 33%;
+      top: 18%;
+      font-size: 45px !important; 
+    
+    }
+    /* clock icone end  */
+
+    #inner {
+      position: relative;
+      margin-top:50%;
+      left: 33%;
+      width: 9em;
+      height: 6em;
+
+    }
+
+  }
+
+
+
+
+  
+  @media (max-width: 380px) {
+
+    /* icons and text for ico start */ 
+    .textIconEnvelope
+    {
+      left: 3.7%;
+      top: 72%;
+      font-size: 20px;
+      
+    }
+    
+    
+    .textIconPortfolio
+    {
+      
+      left: 2.5%;
+    
+      top: 33%;
+      font-size: 20px;
+    }
+    
+    
+    
+    
+    .textIconServices
+    {
+     
+      left: 2.5%;
+      top: 52%;
+      font-size: 20px;
+    }
+    
+    .envelope
+    {
+    
+    left: 5%;
+    top: 60%;
+    width: 60px;
+    height: 60px;
+    }
+    .portfolio
+    {
+    left: 5%;
+    top: 20%;
+    width: 60px;
+    height: 60px;
+    }
+    
+    
+    .services
+    {
+    left: 5%;
+    top: 40%;
+    width: 60px;
+    height: 60px;
+    }
+    
+    
+    /* icons and text for ico end */
+    
+    /* main bar start */
+    footer
+    {
+      top: 86%;
+      height: 200px;
+      width: 100%;
+      padding: 0;
+    }
+    /* main bar end */
+    
+    /* button on the main barr start */
+    .menuButtom
+    {
+     top: 15%;
+     font-size: 20px;
+      width: 6rem;
+      margin: 0rem 1rem;
+      padding: 0.50rem 0rem;
+    
+    
+    }
+    /* button on the main barr end */
+    
+    
+    /* button two on the main barr start */
+    .menuButtomTwo
+    {
+     top: 15%;
+     left: 55%;
+     font-size: 20px;
+      width: 6rem;
+      margin: 0rem 1rem;
+      padding: 0.50rem 0rem;
+    
+    }
+    /* button two on the main barr end */
+    
+
+    
+    /* clock icone start */
+    .fa
+    {
+    
+      left: 40%;
+      top: 18%;
+      font-size: 45px !important; 
+    
+    }
+    /* clock icone end  */
+
+    #inner {
+      position: relative;
+      margin-top:50%;
+      left: 33%;
+      width: 9em;
+      height: 6em;
+
+    }
+    }
+
+
+
+
+    @media (max-width: 330px) {
+
+      /* icons and text for ico start */ 
+      .textIconEnvelope
+      {
+        left: 3.7%;
+        top: 72%;
+        font-size: 20px;
+        
+      }
+      
+      
+      .textIconPortfolio
+      {
+        
+        left: 2.5%;
+      
+        top: 33%;
+        font-size: 20px;
+      }
+      
+      
+      
+      
+      .textIconServices
+      {
+       
+        left: 2.5%;
+        top: 52%;
+        font-size: 20px;
+      }
+      
+      .envelope
+      {
+      
+      left: 5%;
+      top: 60%;
+      width: 60px;
+      height: 60px;
+      }
+      .portfolio
+      {
+      left: 5%;
+      top: 20%;
+      width: 60px;
+      height: 60px;
+      }
+      
+      
+      .services
+      {
+      left: 5%;
+      top: 40%;
+      width: 60px;
+      height: 60px;
+      }
+      
+      
+      /* icons and text for ico end */
+      
+      /* main bar start */
+      footer
+      {
+        top: 86%;
+        height: 200px;
+        width: 100%;
+        padding: 0;
+      }
+      /* main bar end */
+      
+      /* button on the main barr start */
+      .menuButtom
+      {
+       top: 15%;
+       font-size: 20px;
+        width: 6rem;
+        margin: 0rem 1rem;
+        padding: 0.50rem 0rem;
+      
+      
+      }
+      /* button on the main barr end */
+      
+      
+      /* button two on the main barr start */
+      .menuButtomTwo
+      {
+       top: 15%;
+       left: 55%;
+       font-size: 20px;
+        width: 6rem;
+        margin: 0rem 1rem;
+        padding: 0.50rem 0rem;
+      
+      }
+      /* button two on the main barr end */
+      
+  
+      
+      /* clock icone start */
+      .fa
+      {
+      
+        left:43%;
+        top: 18%;
+        font-size: 45px !important; 
+      
+      }
+      /* clock icone end  */
+  
+      #inner {
+        position: relative;
+        margin-top:70%;
+        left: 40%;
+        width: 9em;
+        height: 6em;
+  
+      }
+      }
