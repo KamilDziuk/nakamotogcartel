@@ -404,7 +404,7 @@ footer
 
   top: 15%;
   font-size: 30px;
-    left: 50%;
+    left: 70%;
     width: 4px;
    height:2.3rem;
    margin: 0rem 1rem;
@@ -422,7 +422,7 @@ footer
 .clockOnTheTaskbar
 {
 
-  left: 55.6%;
+  left:75%;
   top: 19%;
   font-size: 30px;
 }
@@ -432,7 +432,7 @@ footer
 .fa
 {
 
-  left: 52%;
+  left: 72%;
   top: 18%;
   font-size: 45px !important; 
 
@@ -448,8 +448,8 @@ a {
  
   top:  15px;
   height: 150px;
-  max-width: 38%;
-  margin-left: 200px;
+  max-width: 58.2%;
+  margin-left: 193px;
 
 }
 
@@ -523,7 +523,26 @@ display: none;
       display: none;
     }
     /* fence end  */
-  
+  /* clock on the top bar start */
+.clockOnTheTaskbar
+{
+
+  left:68%;
+  top: 19%;
+  font-size: 30px;
+}
+/* clock on the top bar end */
+
+/* clock icone start */
+.fa
+{
+
+  left: 65%;
+  top: 18%;
+  font-size: 45px !important; 
+
+}
+/* clock icone end  */
 }
 
 @media (max-width: 1195px) {
@@ -1319,7 +1338,7 @@ display: none;
     .menuButtomTwo
     {
      top: 15%;
-     left: 48%;
+     left:65%;
      font-size: 20px;
       width: 6rem;
       margin: 0rem 1rem;
@@ -1334,7 +1353,7 @@ display: none;
     .fa
     {
     
-      left: 40%;
+      left: 45%;
       top: 18%;
       font-size: 45px !important; 
     
@@ -1354,7 +1373,7 @@ display: none;
 
 
 
-    @media (max-width: 330px) {
+    @media (max-width: 334px) {
 
       /* icons and text for ico start */ 
       .textIconEnvelope
