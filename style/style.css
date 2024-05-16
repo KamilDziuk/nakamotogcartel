@@ -283,22 +283,24 @@ footer
 /* button two on the main barr start */
 .menuButtomTwo
 {
- top: 15%;
- left: 85%;
- font-size: 30px;
- border: none;
-  position: absolute;
-  display: flex;
-  width: 8rem;
-  margin: 0rem 1rem;
-  padding: 0.50rem 0rem;
-  -webkit-box-pack: center;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-weight: 400;
-  font-family: "Pixelify Sans", sans-serif;
-  box-shadow:-3px -3px 0 0 #fff, 2px 2px 0 1px #a7a7a7
+ 
+    top: 15%;
+    right: 0; 
+    font-size: 30px;
+    border: none;
+    position: absolute; 
+    display: flex;
+    width: 8rem;
+    margin: 0rem 1rem;
+    padding: 0.50rem 0rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    font-family: "Pixelify Sans", sans-serif;
+    box-shadow: -3px -3px 0 0 #fff, 2px 2px 0 1px #a7a7a7;
+  
+
 
 }
 /* button two on the main barr end */
@@ -540,18 +542,7 @@ footer
 /* button on the main barr end */
 
 
-/* button two on the main barr start */
-.menuButtomTwo
-{
- top: 15%;
- left: 89%;
- font-size: 30px;
-  width: 8rem;
-  margin: 0rem 1rem;
-  padding: 0.50rem 0rem;
 
-}
-/* button two on the main barr end */
 
 
 
@@ -663,18 +654,6 @@ a {
 @media (max-width: 1515px) {
 
 
-  /* button two on the main barr start */
-.menuButtomTwo
-{
- top: 15%;
- left: 85%;
- font-size: 30px;
-  width: 8rem;
-  margin: 0rem 1rem;
-  padding: 0.50rem 0rem;
-
-}
-/* button two on the main barr end */
 
   /* moving text start */
   .movingText {
@@ -801,18 +780,7 @@ display: none;
   /* button on the main barr end */
   
   
-  /* button two on the main barr start */
-  .menuButtomTwo
-  {
-   top: 15%;
-   left: 80%;
-   font-size: 30px;
-    width: 8rem;
-    margin: 0rem 1rem;
-    padding: 0.50rem 0rem;
   
-  }
-  /* button two on the main barr end */
   
   
   
@@ -862,18 +830,7 @@ display: none;
 
 
 
- /* button two on the main barr start */
- .menuButtomTwo
- {
-  top: 15%;
-  left:75%;
-  font-size: 30px;
-   width: 8rem;
-   margin: 0rem 1rem;
-   padding: 0.50rem 0rem;
- 
- }
- /* button two on the main barr end */
+
  
  
  
@@ -990,20 +947,7 @@ display: none;
   /* button on the main barr end */
   
   
-  /* button two on the main barr start */
-  .menuButtomTwo
-  {
-   top: 15%;
-   left:75%;
-   font-size: 30px;
-    width: 8rem;
-    margin: 0rem 1rem;
-    padding: 0.50rem 0rem;
-  
-  }
-  /* button two on the main barr end */
-  
-  
+
   
   
 
@@ -1118,18 +1062,7 @@ display: none;
     /* button on the main barr end */
     
     
-    /* button two on the main barr start */
-    .menuButtomTwo
-    {
-     top: 15%;
-     left: 74%;
-     font-size: 30px;
-      width: 8rem;
-      margin: 0rem 1rem;
-      padding: 0.50rem 0rem;
-    
-    }
-    /* button two on the main barr end */
+
     
 
     
@@ -1251,19 +1184,7 @@ display: none;
     }
     /* button on the main barr end */
     
-    
-    /* button two on the main barr start */
-    .menuButtomTwo
-    {
-     top: 15%;
-     left: 67%;
-     font-size: 30px;
-      width: 8rem;
-      margin: 0rem 1rem;
-      padding: 0.50rem 0rem;
-    
-    }
-    /* button two on the main barr end */
+
     
 
     
@@ -1378,20 +1299,23 @@ display: none;
     
     }
     /* button on the main barr end */
-    
-    
     /* button two on the main barr start */
-    .menuButtomTwo
-    {
-     top: 15%;
-     left: 67%;
-     font-size: 20px;
-      width: 6rem;
-      margin: 0rem 1rem;
-      padding: 0.50rem 0rem;
+.menuButtomTwo
+{
+ 
+    top: 15%;
+ 
+    font-size: 20px;
+    width: 6rem;
+    margin: 0rem 1rem;
+    padding: 0.50rem 0rem;
+
+
+
+}
+/* button two on the main barr end */
     
-    }
-    /* button two on the main barr end */
+
     
 
     
@@ -1505,17 +1429,7 @@ display: none;
     /* button on the main barr end */
     
     
-    /* button two on the main barr start */
-    .menuButtomTwo
-    {
-     top: 15%;
-     left:65%;
-     font-size: 20px;
-      width: 6rem;
-      margin: 0rem 1rem;
-      padding: 0.50rem 0rem;
-    
-    }
+
     /* button two on the main barr end */
     
 
@@ -1628,18 +1542,7 @@ display: none;
       /* button on the main barr end */
       
       
-      /* button two on the main barr start */
-      .menuButtomTwo
-      {
-       top: 15%;
-       left: 55%;
-       font-size: 20px;
-        width: 6rem;
-        margin: 0rem 1rem;
-        padding: 0.50rem 0rem;
-      
-      }
-      /* button two on the main barr end */
+
       
   
       
