@@ -1,47 +1,100 @@
-class Clock
-{
-constructor()
-{
-this.clockOnTheTaskbar = document.querySelector('.clockOnTheTaskbar')
+class Clock {
+  constructor() {
+    this._clockOnTheTaskbar = document.querySelector('.clockOnTheTaskbar');
+    this._data = new Date();
+    this._hours = this._data.getHours();
+    this._suffix = '';
+    this._intervalId = null; 
+  }
+ get clockOnTheTaskbar()
+ {
+return this._clockOnTheTaskbar;
+ }
 
+ get data()
+ {
+  return this._data
+ }
+
+
+ get hours ()
+ {
+  return this._hours;
+ }
+
+
+ get suffix ()
+ {
+  return this._suffix;
+ }
+
+
+ get intervalId()
+ {
+  return  this._intervalId;
+ }
+
+  set clockOnTheTaskbar(value)
+ {
+  this._clockOnTheTaskbar = value;
+ }
+
+ set data(value)
+ {
+  this._data = value;
+ }
+
+
+ set hours(value)
+ {
+  this._hours = value;
+ }
+
+
+ set suffix(value)
+ {
+  this._hours = value;
+ }
+
+
+
+ set intervalId(value)
+ {
+  this._intervalId = value;
+
+ }
+
+
+//  refresh method  clock start
+ clockMethod()
+ {
+
+  this._intervalId = setInterval(() =>{
+
+    this._data = new Date();
+    this._hours = this._data.getHours();
+
+
+if( this._hours < 12)
+  {
+    this._suffix  = "PM"
+  }
+  else
+  {
+    this._suffix  = "AM"
+  }
+
+
+  this._clockOnTheTaskbar.innerHTML = `${this._data.toLocaleTimeString()} ${this._suffix} `
+
+
+  },1000)
 }
-// clock setting method start
-get dataInBarMethod()
-{
-// Clock update method start
-   setInterval( () => {
-    let data = new Date()
-    let hours = data.getHours();
-
-    // time of day condition start
-    let suffix = "";
-    if(hours < 12)
-        {
-        suffix = "AM"
-        }else
-    {
-        suffix = "PM"
-    }
-     // time of day condition end
-
-     
-
-    //    display clock settings start
-    this.clockOnTheTaskbar.innerHTML = `${data.toLocaleTimeString()} ${suffix}`;
-    //    display clock settings end
-  }, 1000);
-    // Clock update method end
 }
+//  refresh method  clock end
 
-// clock setting method end
-
-
-};
-// class  Clock call start
-let clockContent = new Clock(); 
-clockContent.dataInBarMethod;
-// class Clock call end
-
+let clockContent = new Clock();
+clockContent.clockMethod();
 
 
 // movable block start
