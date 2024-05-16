@@ -93,6 +93,77 @@ if( this._hours < 12)
 }
 //  refresh method  clock end
 
+// system window method start
+
+
+
+ class SystemWindoMenu
+ {
+constructor()
+{
+ this._systemWindow = document.querySelector('.systemWindow');
+  this._menuButtom = document.querySelector('.menuButtom');
+  this._clockOn = false;
+}
+
+get clockOn ()
+{
+  return this._clockOn; 
+}
+
+get systemWindo()
+{
+  return this._systemWindow; 
+}
+
+get menuButtom()
+{
+  return this._menuButtom; 
+}
+
+set systemWindo(value)
+{
+   this._systemWindow = value; 
+}
+
+set menuButtom(value)
+{
+   this._menuButtom = value; 
+}
+
+set clockOn(value)
+{
+  this._clockOn = value; 
+}
+
+clickMenuButtom()
+{
+  this._systemWindow.style.display = 'none'
+  this._menuButtom.addEventListener('click', () =>
+  {
+    this._clockOn =  !this._clockOn;
+    if( this._clockOn == true)
+      {
+        this._systemWindow.style.display = 'block'
+      }
+      else
+      {
+        this._systemWindow.style.display = 'none'
+      }
+   
+  })
+}
+
+
+ };
+let resultsClickMenuButtom = new SystemWindoMenu();
+
+resultsClickMenuButtom.clickMenuButtom();
+
+
+// system window method end
+
+
 let clockContent = new Clock();
 clockContent.clockMethod();
 

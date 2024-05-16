@@ -47,7 +47,7 @@ overflow-x: hidden;
 {
 position: absolute;
 left: 5%;
-top: 60%;
+top: 62%;
 width: 70px;
 height: 70px;
 }
@@ -73,6 +73,170 @@ height: 70px;
 
 /* icons and text for ico end */
 
+
+
+
+/* icons and text for ico / system window start */
+
+.textSystemWindow
+{
+  position: absolute;
+  left: 10%;
+  top: 80%;
+  font-size: 15px;
+  
+}
+
+
+
+.blockCenter
+{
+  
+    top: 76%;
+    font-size: 30px;
+    border: none;
+     position: absolute;
+      left: 10.9%;
+     width: 150px;
+     height:2px;
+     margin: 0rem 0rem;
+
+     -webkit-box-pack: center;
+     justify-content: center;
+   background-color: #a7a7a7;
+     z-index: 2;
+     
+  
+}
+
+.textIconEnvelopeSystemWindow
+{
+  position: absolute;
+  left: 28%;
+  top: 65%;
+  font-size: 15px;
+  
+}
+
+
+.textIconPortfolioSystemWindow
+{
+  position: absolute;
+  left: 28%;
+  
+  top: 20%;
+  font-size: 15px;
+}
+
+
+
+
+.textIconServicesSystemWindow
+{
+  position: absolute;
+  left: 28%;
+ 
+  top: 45%;
+  font-size: 15px;
+}
+
+
+.textSystemWindow:hover
+{
+background: #a7a7a7;
+  width: 140px;
+
+}
+
+
+
+.textIconServicesSystemWindow:hover
+{
+background: #a7a7a7;
+  width: 140px;
+
+}
+
+
+
+.textIconPortfolioSystemWindow:hover
+{
+background: #a7a7a7;
+  width: 140px;
+
+}
+
+
+
+.textIconEnvelopeSystemWindow:hover
+{
+background: #a7a7a7;
+  width: 140px;
+
+}
+
+
+
+
+
+
+.envelopeSystemWindow
+{
+position: absolute;
+left: 10%;
+top: 62%;
+width: 35px;
+height: 35px;
+}
+.portfolioSystemWindow
+{
+position: absolute;
+left: 10%;
+top: 15%;
+width: 35px;
+height: 35px;
+}
+
+
+.servicesSystemWindow
+{
+position: absolute;
+left: 10%;
+top: 40%;
+width: 35px;
+height: 35px;
+}
+
+
+/* icons and text for ico / system window end */
+
+
+/* system window start  */
+.systemWindow
+{
+  background-color:rgb(236, 236, 236);
+  top: -250px;
+ font-size: 30px;
+ border: none;
+  position: absolute;
+  display: flex;
+  width: 210px;
+  height:250px ;
+  margin: 0rem 1rem;
+  padding: 0.50rem 0rem;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Pixelify Sans", sans-serif;
+  box-shadow:-3px -3px 0 0 #fff, 2px 2px 0 1px #a7a7a7
+}
+/* system window end */
+
+
+
+
 /* main bar start */
 footer
 {
@@ -85,6 +249,13 @@ footer
   box-shadow: inset;
 }
 /* main bar end */
+
+
+ 
+
+
+
+
 
 /* button on the main barr start */
 .menuButtom
