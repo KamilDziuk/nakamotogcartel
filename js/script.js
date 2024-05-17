@@ -91,11 +91,13 @@ if( this._hours < 12)
   },1000)
 }
 }
+
+
+let clockContent = new Clock();
+clockContent.clockMethod();
 //  refresh method  clock end
 
 // system window method start
-
-
 
  class SystemWindoMenu
  {
@@ -103,12 +105,12 @@ constructor()
 {
  this._systemWindow = document.querySelector('.systemWindow');
   this._menuButtom = document.querySelector('.menuButtom');
-  this._clockOn = false;
+  this._clickOn = false;
 }
 
-get clockOn ()
+get clickOn ()
 {
-  return this._clockOn; 
+  return this._clickOn; 
 }
 
 get systemWindo()
@@ -131,9 +133,9 @@ set menuButtom(value)
    this._menuButtom = value; 
 }
 
-set clockOn(value)
+set clickOn(value)
 {
-  this._clockOn = value; 
+  this._clickOn = value; 
 }
 
 clickMenuButtom()
@@ -141,8 +143,8 @@ clickMenuButtom()
   this._systemWindow.style.display = 'none'
   this._menuButtom.addEventListener('click', () =>
   {
-    this._clockOn =  !this._clockOn;
-    if( this._clockOn == true)
+    this._clickOn =  !this._clickOn;
+    if( this._clickOn == true)
       {
         this._systemWindow.style.display = 'block'
       }
@@ -161,14 +163,171 @@ let resultsClickMenuButtom = new SystemWindoMenu();
 resultsClickMenuButtom.clickMenuButtom();
 
 
+
+
 // system window method end
 
 
-let clockContent = new Clock();
-clockContent.clockMethod();
+
+
+
+
+
+// system  window  icone start
+
+class SystemWindoMenuIcone
+{
+constructor()
+{
+  
+  this._iconEnvelopeButtonX = document.querySelector('.iconEnvelopeButtonX');
+this._systemWindowIconEnvelope = document.querySelector('.systemWindowIconEnvelope');
+ this._envelope = document.querySelector('.envelope');
+ this._clickOnIcone = false;
+}
+
+get clickOnIcone ()
+{
+ return this._clickOnIcone; 
+}
+
+get iconEnvelopeButtonX ()
+{
+ return this._clickOnIcone; 
+}
+
+
+get systemWindo()
+{
+ return this._systemWindowIconEnvelope; 
+}
+
+get envelope()
+{
+ return this._envelope; 
+}
+
+set systemWindo(value)
+{
+  this._systemWindowIconEnvelope = value; 
+}
+
+set envelope(value)
+{
+  this._envelope = value; 
+}
+
+set clickOnIcone(value)
+{
+ this._clickOnIcone = value; 
+}
+
+
+set iconEnvelopeButtonX (value)
+{
+  this._clickOnIcone = value; 
+}
+
+
+
+clickEnvelope()
+{
+ this._systemWindowIconEnvelope.style.display = 'none'
+ this._envelope.addEventListener('click', () =>
+ {
+ 
+       this._systemWindowIconEnvelope.style.display = 'block'
+     
+   
+ })
+}
+
+clickEnvelopeClose()
+{
+
+
+
+this._clickOnIcone =  !this._clickOnIcone;
+
+this._iconEnvelopeButtonX.addEventListener('click', () =>{
+if( this._clickOnIcone == true)
+
+  {
+    this._systemWindowIconEnvelope.style.display = 'none'
+  }
+})
+}
+
+
+
+};
+let resultsClickenvelope = new SystemWindoMenuIcone();
+
+resultsClickenvelope.clickEnvelope();
+resultsClickenvelope.clickEnvelopeClose();
+
+
+
+// system  window  icone  end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // movable block start
+
 
 (function() {
     // Init
