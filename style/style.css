@@ -109,6 +109,41 @@ height: 70px;
   
 }
 
+
+
+
+.blockvertical
+{
+  
+    top: 0%;
+    font-size: 30px;
+    border: none;
+     position: absolute;
+      left: 0%;
+     width: 15px;
+     height:267px;
+     margin: 0rem 0rem;
+
+     -webkit-box-pack: center;
+     justify-content: center;
+   background-color: #a7a7a7;
+     z-index: 2;
+     
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .textIconEnvelopeSystemWindow
 {
   position: absolute;
