@@ -104,7 +104,7 @@ height: 70px;
      -webkit-box-pack: center;
      justify-content: center;
    background-color: #a7a7a7;
-     z-index: 2;
+     z-index: 0;
      
   
 }
@@ -127,7 +127,7 @@ height: 70px;
      -webkit-box-pack: center;
      justify-content: center;
    background-color: #a7a7a7;
-     z-index: 2;
+     z-index: 0;
      
   
 }
