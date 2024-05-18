@@ -173,9 +173,10 @@ resultsClickMenuButtom.clickMenuButtom();
 
 
 
-// system  window  icone start
 
-class SystemWindoMenuIcone
+// system  window  icone  Envelope  start
+
+class SystemWindoMenuIconeEnvelope
 {
 constructor()
 {
@@ -183,12 +184,19 @@ constructor()
   this._iconEnvelopeButtonX = document.querySelector('.iconEnvelopeButtonX');
 this._systemWindowIconEnvelope = document.querySelector('.systemWindowIconEnvelope');
  this._envelope = document.querySelector('.envelope');
+ this._textIconEnvelopeSystemWindow = document.querySelector('.textIconEnvelopeSystemWindow');
  this._clickOnIcone = false;
 }
 
 get clickOnIcone ()
 {
  return this._clickOnIcone; 
+}
+
+
+get textIconEnvelopeSystemWindow ()
+{
+ return this._textIconEnvelopeSystemWindow; 
 }
 
 get iconEnvelopeButtonX ()
@@ -228,6 +236,11 @@ set iconEnvelopeButtonX (value)
   this._clickOnIcone = value; 
 }
 
+set textIconEnvelopeSystemWindow (value)
+{
+  this._textIconEnvelopeSystemWindow = value; 
+}
+
 
 
 clickEnvelope()
@@ -240,7 +253,19 @@ clickEnvelope()
      
    
  })
+
+
+ this._textIconEnvelopeSystemWindow.addEventListener('click', () =>
+  {
+  
+        this._systemWindowIconEnvelope.style.display = 'block'
+      
+    
+  })
+
 }
+
+
 
 clickEnvelopeClose()
 {
@@ -261,17 +286,260 @@ if( this._clickOnIcone == true)
 
 
 };
-let resultsClickenvelope = new SystemWindoMenuIcone();
+let resultsClickenvelope = new SystemWindoMenuIconeEnvelope();
 
 resultsClickenvelope.clickEnvelope();
 resultsClickenvelope.clickEnvelopeClose();
 
 
 
-// system  window  icone  end
+// system  window  icone  Envelope end
 
 
 
+
+// system  window  icone  Portfolio  start
+
+class SystemWindoMenuIconePortfolio
+{
+constructor()
+{
+  
+  this._iconPortfolioButtonX = document.querySelector('.iconPortfolioButtonX');
+this._systemWindowIconPortfolio = document.querySelector('.systemWindowIconPortfolio');
+ this._portfolio = document.querySelector('.portfolio');
+ this._textIconPortfolioSystemWindow = document.querySelector('.textIconPortfolioSystemWindow');
+ this._clickOnIcone = false;
+}
+
+get clickOnIcone ()
+{
+ return this._clickOnIcone; 
+}
+
+
+get textIconPortfolioSystemWindow ()
+{
+ return this._textIconPortfolioSystemWindow; 
+}
+
+get iconPortfolioButtonX ()
+{
+ return this._clickOnIcone; 
+}
+
+
+get systemWindo()
+{
+ return this._systemWindowIconPortfolio; 
+}
+
+get portfolio()
+{
+ return this._portfolio; 
+}
+
+set systemWindo(value)
+{
+  this._systemWindowIconPortfolio = value; 
+}
+
+set portfolio(value)
+{
+  this._portfolio = value; 
+}
+
+set clickOnIcone(value)
+{
+ this._clickOnIcone = value; 
+}
+
+
+set iconPortfolioButtonX (value)
+{
+  this._clickOnIcone = value; 
+}
+
+set textIconPortfolioSystemWindow (value)
+{
+  this._textIconPortfolioSystemWindow = value; 
+}
+
+
+
+clickPortfolio()
+{
+ this._systemWindowIconPortfolio.style.display = 'none'
+ this._portfolio.addEventListener('click', () =>
+ {
+ 
+       this._systemWindowIconPortfolio.style.display = 'block'
+     
+   
+ })
+
+
+ this._textIconPortfolioSystemWindow.addEventListener('click', () =>
+  {
+  
+        this._systemWindowIconPortfolio.style.display = 'block'
+      
+    
+  })
+
+}
+
+
+
+clickPortfolioClose()
+{
+
+
+
+this._clickOnIcone =  !this._clickOnIcone;
+
+this._iconPortfolioButtonX.addEventListener('click', () =>{
+if( this._clickOnIcone == true)
+
+  {
+    this._systemWindowIconPortfolio.style.display = 'none'
+  }
+})
+}
+
+
+
+};
+let resultsClickportfolio = new SystemWindoMenuIconePortfolio();
+
+resultsClickportfolio.clickPortfolio();
+resultsClickportfolio.clickPortfolioClose();
+
+
+
+// system  window  icone  Portfolio end
+
+
+// system  window  icone  Services  start
+
+class SystemWindoMenuIconeServices
+{
+constructor()
+{
+  
+  this._iconServicesButtonX = document.querySelector('.iconServicesButtonX');
+this._systemWindowIconServices = document.querySelector('.systemWindowIconServices');
+ this._services = document.querySelector('.services');
+ this._textIconServicesSystemWindow = document.querySelector('.textIconServicesSystemWindow');
+ this._clickOnIcone = false;
+}
+
+get clickOnIcone ()
+{
+ return this._clickOnIcone; 
+}
+
+
+get textIconServicesSystemWindow ()
+{
+ return this._textIconServicesSystemWindow; 
+}
+
+get iconServicesButtonX ()
+{
+ return this._clickOnIcone; 
+}
+
+
+get systemWindo()
+{
+ return this._systemWindowIconServices; 
+}
+
+get services()
+{
+ return this._services; 
+}
+
+set systemWindo(value)
+{
+  this._systemWindowIconServices = value; 
+}
+
+set services(value)
+{
+  this._services = value; 
+}
+
+set clickOnIcone(value)
+{
+ this._clickOnIcone = value; 
+}
+
+
+set iconServicesButtonX (value)
+{
+  this._clickOnIcone = value; 
+}
+
+set textIconServicesSystemWindow (value)
+{
+  this._textIconServicesSystemWindow = value; 
+}
+
+
+
+clickServices()
+{
+ this._systemWindowIconServices.style.display = 'none'
+ this._services.addEventListener('click', () =>
+ {
+ 
+       this._systemWindowIconServices.style.display = 'block'
+     
+   
+ })
+
+
+ this._textIconServicesSystemWindow.addEventListener('click', () =>
+  {
+  
+        this._systemWindowIconServices.style.display = 'block'
+      
+    
+  })
+
+}
+
+
+
+clickServicesClose()
+{
+
+
+
+this._clickOnIcone =  !this._clickOnIcone;
+
+this._iconServicesButtonX.addEventListener('click', () =>{
+if( this._clickOnIcone == true)
+
+  {
+    this._systemWindowIconServices.style.display = 'none'
+  }
+})
+}
+
+
+
+};
+let resultsClickservices = new SystemWindoMenuIconeServices();
+
+resultsClickservices.clickServices();
+resultsClickservices.clickServicesClose();
+
+
+
+// system  window  icone  Services end
 
 
 
