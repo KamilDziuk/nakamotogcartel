@@ -880,8 +880,8 @@ a {
   position: relative;
   margin-top: 8%;
   left: 40%;
-  width: 20em;
-  height: 18em;
+  max-width: 18em;
+  max-height: 18em;
   padding-bottom: 0.5%;
   background-color: rgba(255, 255, 255, 0);
 
@@ -1317,8 +1317,7 @@ a {
 #inner {
   margin-top: 10%;
   left: 40%;
-  width: 20em;
-  height: 18em;
+
 
 }
 
@@ -1499,8 +1498,7 @@ display: none;
       position: relative;
       margin-top: 20%;
       left: 35%;
-      width: 20em;
-      height: 18em;
+
 
     }
 /* movable block end */
@@ -2350,8 +2348,7 @@ p{
       position: relative;
       margin-top: 20%;
       left: 35%;
-      width: 15em;
-      height: 18em;
+
 
     }
 
@@ -2479,11 +2476,15 @@ p{
 
     #inner {
       position: relative;
-      margin-top:50%;
-      left: 33%;
-      width: 9em;
-      height: 6em;
+      margin-top:20%;
+      left: 25%;
+ 
 
+    }
+
+    .connectTwitter
+    {
+      left: 35%;
     }
 
   }
@@ -2592,14 +2593,6 @@ p{
     }
     /* clock icone end  */
 
-    #inner {
-      position: relative;
-      margin-top:50%;
-      left: 33%;
-      width: 9em;
-      height: 6em;
-
-    }
 
 
     /* system window  icone start  */
@@ -2641,7 +2634,13 @@ p{
    height: 500px ;
 }
 
+#inner {
+  position: relative;
+  margin-top:20%;
+  left: 15%;
 
+
+}
 
     /* system window  icone end  */
     }
