@@ -174,17 +174,17 @@ resultsClickMenuButtom.clickMenuButtom();
 
 
 
-// system  window  icone  Envelope  start
+// system  window  icone  Twitter  start
 
-class SystemWindoMenuIconeEnvelope
+class SystemWindoMenuIconeTwitter
 {
 constructor()
 {
   
-  this._iconEnvelopeButtonX = document.querySelector('.iconEnvelopeButtonX');
-this._systemWindowIconEnvelope = document.querySelector('.systemWindowIconEnvelope');
- this._envelope = document.querySelector('.envelope');
- this._textIconEnvelopeSystemWindow = document.querySelector('.textIconEnvelopeSystemWindow');
+  this._iconTwitterButtonX = document.querySelector('.iconTwitterButtonX');
+this._systemWindowIconTwitter = document.querySelector('.systemWindowIconTwitter');
+ this._twitter = document.querySelector('.twitter');
+ this._textIconTwitterSystemWindow = document.querySelector('.textIconTwitterSystemWindow');
  this._clickOnIcone = false;
 }
 
@@ -194,12 +194,12 @@ get clickOnIcone ()
 }
 
 
-get textIconEnvelopeSystemWindow ()
+get textIconTwitterSystemWindow ()
 {
- return this._textIconEnvelopeSystemWindow; 
+ return this._textIconTwitterSystemWindow; 
 }
 
-get iconEnvelopeButtonX ()
+get iconTwitterButtonX ()
 {
  return this._clickOnIcone; 
 }
@@ -207,22 +207,22 @@ get iconEnvelopeButtonX ()
 
 get systemWindo()
 {
- return this._systemWindowIconEnvelope; 
+ return this._systemWindowIconTwitter; 
 }
 
-get envelope()
+get twitter()
 {
- return this._envelope; 
+ return this._twitter; 
 }
 
 set systemWindo(value)
 {
-  this._systemWindowIconEnvelope = value; 
+  this._systemWindowIconTwitter = value; 
 }
 
-set envelope(value)
+set twitter(value)
 {
-  this._envelope = value; 
+  this._twitter = value; 
 }
 
 set clickOnIcone(value)
@@ -231,34 +231,34 @@ set clickOnIcone(value)
 }
 
 
-set iconEnvelopeButtonX (value)
+set iconTwitterButtonX (value)
 {
   this._clickOnIcone = value; 
 }
 
-set textIconEnvelopeSystemWindow (value)
+set textIconTwitterSystemWindow (value)
 {
-  this._textIconEnvelopeSystemWindow = value; 
+  this._textIconTwitterSystemWindow = value; 
 }
 
 
 
-clickEnvelope()
+clickTwitter()
 {
- this._systemWindowIconEnvelope.style.display = 'none'
- this._envelope.addEventListener('click', () =>
+ this._systemWindowIconTwitter.style.display = 'none'
+ this._twitter.addEventListener('click', () =>
  {
  
-       this._systemWindowIconEnvelope.style.display = 'block'
+       this._systemWindowIconTwitter.style.display = 'block'
      
    
  })
 
 
- this._textIconEnvelopeSystemWindow.addEventListener('click', () =>
+ this._textIconTwitterSystemWindow.addEventListener('click', () =>
   {
   
-        this._systemWindowIconEnvelope.style.display = 'block'
+        this._systemWindowIconTwitter.style.display = 'block'
       
     
   })
@@ -267,18 +267,18 @@ clickEnvelope()
 
 
 
-clickEnvelopeClose()
+clickTwitterClose()
 {
 
 
 
 this._clickOnIcone =  !this._clickOnIcone;
 
-this._iconEnvelopeButtonX.addEventListener('click', () =>{
+this._iconTwitterButtonX.addEventListener('click', () =>{
 if( this._clickOnIcone == true)
 
   {
-    this._systemWindowIconEnvelope.style.display = 'none'
+    this._systemWindowIconTwitter.style.display = 'none'
   }
 })
 }
@@ -286,29 +286,29 @@ if( this._clickOnIcone == true)
 
 
 };
-let resultsClickenvelope = new SystemWindoMenuIconeEnvelope();
+let resultsClicktwitter = new SystemWindoMenuIconeTwitter();
 
-resultsClickenvelope.clickEnvelope();
-resultsClickenvelope.clickEnvelopeClose();
-
-
-
-// system  window  icone  Envelope end
+resultsClicktwitter.clickTwitter();
+resultsClicktwitter.clickTwitterClose();
 
 
 
+// system  window  icone  Twitter end
 
-// system  window  icone  Portfolio  start
 
-class SystemWindoMenuIconePortfolio
+
+
+// system  window  icone  Hood  start
+
+class SystemWindoMenuIconeHood
 {
 constructor()
 {
   
-  this._iconPortfolioButtonX = document.querySelector('.iconPortfolioButtonX');
-this._systemWindowIconPortfolio = document.querySelector('.systemWindowIconPortfolio');
- this._portfolio = document.querySelector('.portfolio');
- this._textIconPortfolioSystemWindow = document.querySelector('.textIconPortfolioSystemWindow');
+  this._iconHoodButtonX = document.querySelector('.iconHoodButtonX');
+this._systemWindowIconHood = document.querySelector('.systemWindowIconHood');
+ this._hood = document.querySelector('.hood');
+ this._textIconHoodSystemWindow = document.querySelector('.textIconHoodSystemWindow');
  this._clickOnIcone = false;
 }
 
@@ -318,12 +318,12 @@ get clickOnIcone ()
 }
 
 
-get textIconPortfolioSystemWindow ()
+get textIconHoodSystemWindow ()
 {
- return this._textIconPortfolioSystemWindow; 
+ return this._textIconHoodSystemWindow; 
 }
 
-get iconPortfolioButtonX ()
+get iconHoodButtonX ()
 {
  return this._clickOnIcone; 
 }
@@ -331,22 +331,22 @@ get iconPortfolioButtonX ()
 
 get systemWindo()
 {
- return this._systemWindowIconPortfolio; 
+ return this._systemWindowIconHood; 
 }
 
-get portfolio()
+get hood()
 {
- return this._portfolio; 
+ return this._hood; 
 }
 
 set systemWindo(value)
 {
-  this._systemWindowIconPortfolio = value; 
+  this._systemWindowIconHood = value; 
 }
 
-set portfolio(value)
+set hood(value)
 {
-  this._portfolio = value; 
+  this._hood = value; 
 }
 
 set clickOnIcone(value)
@@ -355,34 +355,34 @@ set clickOnIcone(value)
 }
 
 
-set iconPortfolioButtonX (value)
+set iconHoodButtonX (value)
 {
   this._clickOnIcone = value; 
 }
 
-set textIconPortfolioSystemWindow (value)
+set textIconHoodSystemWindow (value)
 {
-  this._textIconPortfolioSystemWindow = value; 
+  this._textIconHoodSystemWindow = value; 
 }
 
 
 
-clickPortfolio()
+clickHood()
 {
- this._systemWindowIconPortfolio.style.display = 'none'
- this._portfolio.addEventListener('click', () =>
+ this._systemWindowIconHood.style.display = 'none'
+ this._hood.addEventListener('click', () =>
  {
  
-       this._systemWindowIconPortfolio.style.display = 'block'
+       this._systemWindowIconHood.style.display = 'block'
      
    
  })
 
 
- this._textIconPortfolioSystemWindow.addEventListener('click', () =>
+ this._textIconHoodSystemWindow.addEventListener('click', () =>
   {
   
-        this._systemWindowIconPortfolio.style.display = 'block'
+        this._systemWindowIconHood.style.display = 'block'
       
     
   })
@@ -391,18 +391,18 @@ clickPortfolio()
 
 
 
-clickPortfolioClose()
+clickHoodClose()
 {
 
 
 
 this._clickOnIcone =  !this._clickOnIcone;
 
-this._iconPortfolioButtonX.addEventListener('click', () =>{
+this._iconHoodButtonX.addEventListener('click', () =>{
 if( this._clickOnIcone == true)
 
   {
-    this._systemWindowIconPortfolio.style.display = 'none'
+    this._systemWindowIconHood.style.display = 'none'
   }
 })
 }
@@ -410,27 +410,27 @@ if( this._clickOnIcone == true)
 
 
 };
-let resultsClickportfolio = new SystemWindoMenuIconePortfolio();
+let resultsClickhood = new SystemWindoMenuIconeHood();
 
-resultsClickportfolio.clickPortfolio();
-resultsClickportfolio.clickPortfolioClose();
-
-
-
-// system  window  icone  Portfolio end
+resultsClickhood.clickHood();
+resultsClickhood.clickHoodClose();
 
 
-// system  window  icone  ABout  start
 
-class SystemWindoMenuIconeABout
+// system  window  icone  Hood end
+
+
+// system  window  icone  Vision  start
+
+class SystemWindoMenuIconeVision
 {
 constructor()
 {
   
-  this._iconABoutButtonX = document.querySelector('.iconABoutButtonX');
-this._systemWindowIconABout = document.querySelector('.systemWindowIconABout');
- this._aBout = document.querySelector('.aBout');
- this._textIconABoutSystemWindow = document.querySelector('.textIconABoutSystemWindow');
+  this._iconVisionButtonX = document.querySelector('.iconVisionButtonX');
+this._systemWindowIconVision = document.querySelector('.systemWindowIconVision');
+ this._vision = document.querySelector('.vision');
+ this._textIconVisionSystemWindow = document.querySelector('.textIconVisionSystemWindow');
  this._clickOnIcone = false;
 }
 
@@ -440,12 +440,12 @@ get clickOnIcone ()
 }
 
 
-get textIconABoutSystemWindow ()
+get textIconVisionSystemWindow ()
 {
- return this._textIconABoutSystemWindow; 
+ return this._textIconVisionSystemWindow; 
 }
 
-get iconABoutButtonX ()
+get iconVisionButtonX ()
 {
  return this._clickOnIcone; 
 }
@@ -453,22 +453,22 @@ get iconABoutButtonX ()
 
 get systemWindo()
 {
- return this._systemWindowIconABout; 
+ return this._systemWindowIconVision; 
 }
 
-get aBout()
+get vision()
 {
- return this._aBout; 
+ return this._vision; 
 }
 
 set systemWindo(value)
 {
-  this._systemWindowIconABout = value; 
+  this._systemWindowIconVision = value; 
 }
 
-set aBout(value)
+set vision(value)
 {
-  this._aBout = value; 
+  this._vision = value; 
 }
 
 set clickOnIcone(value)
@@ -477,34 +477,34 @@ set clickOnIcone(value)
 }
 
 
-set iconABoutButtonX (value)
+set iconVisionButtonX (value)
 {
   this._clickOnIcone = value; 
 }
 
-set textIconABoutSystemWindow (value)
+set textIconVisionSystemWindow (value)
 {
-  this._textIconABoutSystemWindow = value; 
+  this._textIconVisionSystemWindow = value; 
 }
 
 
 
-clickABout()
+clickVision()
 {
- this._systemWindowIconABout.style.display = 'none'
- this._aBout.addEventListener('click', () =>
+ this._systemWindowIconVision.style.display = 'none'
+ this._vision.addEventListener('click', () =>
  {
  
-       this._systemWindowIconABout.style.display = 'block'
+       this._systemWindowIconVision.style.display = 'block'
      
    
  })
 
 
- this._textIconABoutSystemWindow.addEventListener('click', () =>
+ this._textIconVisionSystemWindow.addEventListener('click', () =>
   {
   
-        this._systemWindowIconABout.style.display = 'block'
+        this._systemWindowIconVision.style.display = 'block'
       
     
   })
@@ -513,18 +513,18 @@ clickABout()
 
 
 
-clickABoutClose()
+clickVisionClose()
 {
 
 
 
 this._clickOnIcone =  !this._clickOnIcone;
 
-this._iconABoutButtonX.addEventListener('click', () =>{
+this._iconVisionButtonX.addEventListener('click', () =>{
 if( this._clickOnIcone == true)
 
   {
-    this._systemWindowIconABout.style.display = 'none'
+    this._systemWindowIconVision.style.display = 'none'
   }
 })
 }
@@ -532,14 +532,14 @@ if( this._clickOnIcone == true)
 
 
 };
-let resultsClickaBout = new SystemWindoMenuIconeABout();
+let resultsClickvision = new SystemWindoMenuIconeVision();
 
-resultsClickaBout.clickABout();
-resultsClickaBout.clickABoutClose();
+resultsClickvision.clickVision();
+resultsClickvision.clickVisionClose();
 
 
 
-// system  window  icone  ABout end
+// system  window  icone  Vision end
 
 
 

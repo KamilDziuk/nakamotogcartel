@@ -4,6 +4,13 @@
     padding: 0;
 }
 
+
+/* html {
+  cursor: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><foreignObject width="100%" height="100%" ><div xmlns="http://www.w3.org/1999/xhtml" style="width:100%;height:100%;background:red;" class="c"  ></div></foreignObject > </svg>') , auto;
+} */
+
+
+
 body {
 background-color:#4A6C8F;
 font-family: "Pixelify Sans", sans-serif;
@@ -12,38 +19,38 @@ overflow-x: hidden;
 }
 
 /* icons and text for ico start */
-.textIconEnvelope
+.textIconTwitter
 {
   position: absolute;
-  left: 3.7%;
+  left: 6% !important;
   top: 70%;
   font-size: 30px;
   
 }
 
 
-.textIconPortfolio
+.textIconHood
 {
   position: absolute;
-  left: 2.5%;
+  left: 5% !important;
   
-  top: 31%;
+  top: 32% !important;
   font-size: 30px;
 }
 
 
 
 
-.textIconABout
+.textIconVision
 {
   position: absolute;
-  left: 2.5%;
+  left: 4.5% !important;
  
-  top: 50%;
+  top: 52% !important;
   font-size: 30px;
 }
 
-.envelope
+.twitter
 {
 position: absolute;
 left: 5%;
@@ -51,20 +58,21 @@ top: 62%;
 width: 70px;
 height: 70px;
 }
-.portfolio
+.hood
 {
 position: absolute;
 left: 5%;
 top: 20%;
-width: 70px;
-height: 70px;
+
+width: 90px !important;
+height: 90px !important;
 }
 
 
-.aBout
+.vision
 {
 position: absolute;
-left: 5%;
+left: 4.5% !important;
 top: 40%;
 width: 70px;
 height: 70px;
@@ -155,7 +163,7 @@ height: 70px;
 
 
 
-.textIconEnvelopeSystemWindow
+.textIconTwitterSystemWindow
 {
   position: absolute;
   left: 33%;
@@ -165,7 +173,7 @@ height: 70px;
 }
 
 
-.textIconPortfolioSystemWindow
+.textIconHoodSystemWindow
 {
   position: absolute;
   left: 33%;
@@ -177,7 +185,7 @@ height: 70px;
 
 
 
-.textIconABoutSystemWindow
+.textIconVisionSystemWindow
 {
   position: absolute;
   left: 33%;
@@ -196,7 +204,7 @@ background: #a7a7a7;
 
 
 
-.textIconABoutSystemWindow:hover
+.textIconVisionSystemWindow:hover
 {
 background: #a7a7a7;
   width: 140px;
@@ -205,7 +213,7 @@ background: #a7a7a7;
 
 
 
-.textIconPortfolioSystemWindow:hover
+.textIconHoodSystemWindow:hover
 {
 background: #a7a7a7;
   width: 140px;
@@ -214,7 +222,7 @@ background: #a7a7a7;
 
 
 
-.textIconEnvelopeSystemWindow:hover
+.textIconTwitterSystemWindow:hover
 {
 background: #a7a7a7;
   width: 140px;
@@ -226,7 +234,7 @@ background: #a7a7a7;
 
 
 
-.envelopeSystemWindow
+.twitterSystemWindow
 {
 position: absolute;
 left: 13%;
@@ -234,7 +242,7 @@ top: 62%;
 width: 35px;
 height: 35px;
 }
-.portfolioSystemWindow
+.hoodSystemWindow
 {
 position: absolute;
 left: 13%;
@@ -244,13 +252,13 @@ height: 35px;
 }
 
 
-.aBoutSystemWindow
+.visionSystemWindow
 {
 position: absolute;
 left: 13%;
 top: 40%;
-width: 35px;
-height: 35px;
+width: 35px !important;
+height:35px !important;
 }
 
 
@@ -288,8 +296,8 @@ height: 35px;
 
 
 
-/* system window  icone  envelope start  */
-.systemWindowIconEnvelope
+/* system window  icone  twitter start  */
+.systemWindowIconTwitter
 {
   background-color:rgb(236, 236, 236);
   top: -590px;
@@ -311,7 +319,7 @@ height: 35px;
   box-shadow:-3px -3px 0 0 #fff, 2px 2px 0 1px #a7a7a7
 }
 
-.blockCenterIconEnvelope
+.blockCenterIconTwitter
 {
   top: 1%;
   font-size: 30px;
@@ -328,7 +336,7 @@ height: 35px;
 }
 
 
-.blockCenterIconEnvelopeText
+.blockCenterIconTwitterText
 {
   top: 2%;
   border: none;
@@ -343,7 +351,7 @@ height: 35px;
    font-size: 20px;
 }
 
-.iconEnvelopeButtonX
+.iconTwitterButtonX
 {
   top: 2.5%;
   left: 91%;
@@ -365,7 +373,7 @@ height: 35px;
   z-index: 2;
 }
 
-.iconEnvelopeButtonWindow
+.iconTwitterButtonWindow
 {
   top: 2.5%;
   left: 85%;
@@ -387,7 +395,7 @@ height: 35px;
   z-index: 2;
 }
 
-.envelopeImage
+.twitterImage
 {
   position: absolute;
   left: 22%;
@@ -395,7 +403,7 @@ height: 35px;
   max-width:60%;
   max-height:55%;
 }
-.iconEnvelopeText
+.iconTwitterText
 {
   left: 7%;
   top: 80%;
@@ -410,13 +418,13 @@ p{
   font-size: 15px;
 }
 
-/* system window icone  envelope end */
+/* system window icone  twitter end */
 
 
 
 
-/* system window  icone  Portfolio start  */
-.systemWindowIconPortfolio
+/* system window  icone  Hood start  */
+.systemWindowIconHood
 {
   background-color:rgb(236, 236, 236);
   top: -590px;
@@ -438,7 +446,7 @@ p{
   box-shadow:-3px -3px 0 0 #fff, 2px 2px 0 1px #a7a7a7
 }
 
-.blockCenterIconPortfolio
+.blockCenterIconHood
 {
   top: 1%;
   font-size: 30px;
@@ -455,7 +463,7 @@ p{
 }
 
 
-.blockCenterIconPortfolioText
+.blockCenterIconHoodText
 {
   top: 2%;
   border: none;
@@ -470,7 +478,7 @@ p{
    font-size: 20px;
 }
 
-.iconPortfolioButtonX
+.iconHoodButtonX
 {
   top: 2.5%;
   left: 91%;
@@ -492,7 +500,7 @@ p{
   z-index: 2;
 }
 
-.iconPortfolioButtonWindow
+.iconHoodButtonWindow
 {
   top: 2.5%;
   left: 85%;
@@ -514,7 +522,7 @@ p{
   z-index: 2;
 }
 
-.portfolioImage
+.hoodImage
 {
   position: absolute;
   left: 22%; 
@@ -522,7 +530,7 @@ p{
   max-width:60%;
   max-height:55%;
 }
-.iconPortfolioText
+.iconHoodText
 {
   left: 7%;
   top: 80%;
@@ -537,7 +545,7 @@ p{
   font-size: 15px;
 }
 
-/* system window icone  Portfolio end */
+/* system window icone  Hood end */
 
 
 
@@ -546,8 +554,8 @@ p{
 
 
 
-/* system window  icone  ABout start  */
-.systemWindowIconABout
+/* system window  icone  Vision start  */
+.systemWindowIconVision
 {
   background-color:rgb(236, 236, 236);
   top: -590px;
@@ -569,7 +577,7 @@ p{
   box-shadow:-3px -3px 0 0 #fff, 2px 2px 0 1px #a7a7a7
 }
 
-.blockCenterIconABout
+.blockCenterIconVision
 {
   top: 1%;
   font-size: 30px;
@@ -586,7 +594,7 @@ p{
 }
 
 
-.blockCenterIconABoutText
+.blockCenterIconVisionText
 {
   top: 2%;
   border: none;
@@ -601,7 +609,7 @@ p{
    font-size: 20px;
 }
 
-.iconABoutButtonX
+.iconVisionButtonX
 {
   top: 2.5%;
   left: 91%;
@@ -623,7 +631,7 @@ p{
   z-index: 2;
 }
 
-.iconABoutButtonWindow
+.iconVisionButtonWindow
 {
   top: 2.5%;
   left: 85%;
@@ -645,7 +653,7 @@ p{
   z-index: 2;
 }
 
-.aBoutImage
+.visionImage
 {
   position: absolute;
   left: 22%;
@@ -653,7 +661,7 @@ p{
   max-width:60%;
   max-height:55%;
 }
-.iconABoutText
+.iconVisionText
 {
   left: 7%;
   top: 80%;
@@ -668,7 +676,7 @@ p{
   font-size: 15px;
 }
 
-/* system window icone  ABout end */
+/* system window icone  Vision end */
 
 
 
@@ -885,10 +893,10 @@ a {
   padding-bottom: 0.5%;
   background-color: rgba(255, 255, 255, 0);
 
-  transition: transform 0.5s;
-  -webkit-transition: transform 0.5s;
-  -moz-transition: transform 0.5s;
-  -o-transition: transform 0.5s;
+  transition: transform 0.2s;
+  -webkit-transition: transform 0.2s;
+  -moz-transition: transform 0.2s;
+  -o-transition: transform 0.2s;
 }
 
 /* movable block end */
@@ -913,7 +921,7 @@ a {
 
 
 /* icons and text for ico start */
-.textIconEnvelope
+.textIconTwitter
 {
   left: 3.7%;
   top: 70%;
@@ -922,7 +930,7 @@ a {
 }
 
 
-.textIconPortfolio
+.textIconHood
 {
   
   left: 2.5%;
@@ -934,7 +942,7 @@ a {
 
 
 
-.textIconABout
+.textIconVision
 {
  
   left: 2.5%;
@@ -942,7 +950,7 @@ a {
   font-size: 30px;
 }
 
-.envelope
+.twitter
 {
 
 left: 5%;
@@ -950,7 +958,7 @@ top: 60%;
 width: 70px;
 height: 70px;
 }
-.portfolio
+.hood
 {
 left: 5%;
 top: 20%;
@@ -959,7 +967,7 @@ height: 70px;
 }
 
 
-.aBout
+.vision
 {
 left: 5%;
 top: 40%;
@@ -972,7 +980,7 @@ height: 70px;
 
 
 /* system window  icone start  */
-.systemWindowIconEnvelope
+.systemWindowIconTwitter
 {
 
   top: -530px;
@@ -987,7 +995,7 @@ height: 70px;
 }
 
 
-.systemWindowIconPortfolio
+.systemWindowIconHood
 {
   
   top: -530px;
@@ -1001,7 +1009,7 @@ height: 70px;
 }
 
 
-.systemWindowIconABout
+.systemWindowIconVision
 {
   
   top: -530px;
@@ -1015,7 +1023,7 @@ height: 70px;
 }
 
 
-.blockCenterIconEnvelope
+.blockCenterIconTwitter
 {
   top: 1%;
   font-size: 30px;
@@ -1024,7 +1032,7 @@ height: 70px;
 
 }
 
-.blockCenterIconPortfolio
+.blockCenterIconHood
 {
   top: 1%;
   font-size: 30px;
@@ -1033,7 +1041,7 @@ height: 70px;
 
 }
 
-.blockCenterIconABout
+.blockCenterIconVision
 {
   top: 1%;
   font-size: 30px;
@@ -1043,7 +1051,7 @@ height: 70px;
 }
 
 
-.blockCenterIconEnvelopeText
+.blockCenterIconTwitterText
 {
   top: 2%;
 
@@ -1053,7 +1061,7 @@ height: 70px;
    font-size: 20px;
 }
 
-.iconEnvelopeButtonX
+.iconTwitterButtonX
 {
   top: 2.5%;
   left: 91%;
@@ -1066,7 +1074,7 @@ height: 70px;
 }
 
 
-.iconPortfolioButtonX
+.iconHoodButtonX
 {
   top: 2.5%;
   left: 91%;
@@ -1077,7 +1085,7 @@ height: 70px;
   padding: 0.18rem 0rem;
 
 }
-.iconABoutButtonX
+.iconVisionButtonX
 {
   top: 2.5%;
   left: 91%;
@@ -1091,7 +1099,7 @@ height: 70px;
 
 
 
-.iconEnvelopeButtonWindow
+.iconTwitterButtonWindow
 {
   top: 2.5%;
   left: 85%;
@@ -1104,7 +1112,7 @@ height: 70px;
 }
 
 
-.iconPortfolioButtonWindow
+.iconHoodButtonWindow
 {
   top: 2.5%;
   left: 85%;
@@ -1116,7 +1124,7 @@ height: 70px;
 
 }
 
-.iconABoutButtonWindow
+.iconVisionButtonWindow
 {
   top: 2.5%;
   left: 85%;
@@ -1128,7 +1136,7 @@ height: 70px;
 
 }
 
-.envelopeImage
+.twitterImage
 {
   position: absolute;
   top: 20%;
@@ -1136,14 +1144,14 @@ height: 70px;
   max-height:55%;
 }
 
-.portfolioImage
+.hoodImage
 {
   position: absolute;
   top: 20%;
   max-width:60%;
   max-height:55%;
 }
-.aBoutImage
+.visionImage
 {
   position: absolute;
   top: 20%;
@@ -1155,7 +1163,7 @@ height: 70px;
 
 
 
-.iconEnvelopeText
+.iconTwitterText
 {
   left: 7%;
   top: 80%;
@@ -1164,7 +1172,7 @@ position: absolute;
 
 }
 
-.iconPortfolioText
+.iconHoodText
 {
   left: 7%;
   top: 80%;
@@ -1174,7 +1182,7 @@ position: absolute;
 
 
 
-.iconABoutText
+.iconVisionText
 {
   left: 7%;
   top: 80%;
@@ -1376,44 +1384,44 @@ display: none;
 
 
   /* icons and text for ico start */
-  .textIconEnvelope
+  .textIconTwitter
   {
-    left: 3.7%;
+    left: 7% !important;
     top: 70%;
     font-size: 30px;
     
   }
   
   
-  .textIconPortfolio
+  .textIconHood
   {
     
     left: 2.5%;
   
-    top: 31%;
+    top: 33% !important;
     font-size: 30px;
   }
   
   
   
   
-  .textIconABout
+  .textIconVision
   {
    
     left: 2.5%;
-    top: 50%;
+    top: 53% !important;
     font-size: 30px;
   }
   
-  .envelope
+  .twitter
   {
   
-  left: 5%;
+  left: 5% ;
   top: 60%;
   width: 70px;
   height: 70px;
   }
-  .portfolio
+  .hood
   {
   left: 5%;
   top: 20%;
@@ -1422,7 +1430,7 @@ display: none;
   }
   
   
-  .aBout
+  .vision
   {
   left: 5%;
   top: 40%;
@@ -1539,7 +1547,7 @@ display: none;
 
 
  /* system window  icone start  */
-.systemWindowIconEnvelope
+.systemWindowIconTwitter
 {
 
   top: -530px;
@@ -1553,22 +1561,7 @@ display: none;
 
 }
 
-.systemWindowIconPortfolio
-{
-
-  top: -530px;
- font-size: 30px;
- left: 23%;
-
-  position: absolute;
-  display: flex;
-  width: 500px;
-  height: 500px ;
-
-}
-
-
-.systemWindowIconABout
+.systemWindowIconHood
 {
 
   top: -530px;
@@ -1583,9 +1576,24 @@ display: none;
 }
 
 
+.systemWindowIconVision
+{
+
+  top: -530px;
+ font-size: 30px;
+ left: 23%;
+
+  position: absolute;
+  display: flex;
+  width: 500px;
+  height: 500px ;
+
+}
 
 
-.blockCenterIconEnvelope
+
+
+.blockCenterIconTwitter
 {
   top: 1%;
   font-size: 30px;
@@ -1595,7 +1603,7 @@ display: none;
 }
 
 
-.blockCenterIconPortfolio
+.blockCenterIconHood
 {
   top: 1%;
   font-size: 30px;
@@ -1603,7 +1611,7 @@ display: none;
    height:35px;
 }
 
-.blockCenterIconABout
+.blockCenterIconVision
 {
   top: 1%;
   font-size: 30px;
@@ -1614,7 +1622,7 @@ display: none;
 
 
 
-.blockCenterIconEnvelopeText
+.blockCenterIconTwitterText
 {
   top: 2%;
 
@@ -1624,7 +1632,7 @@ display: none;
    font-size: 20px;
 }
 
-.iconEnvelopeButtonX
+.iconTwitterButtonX
 {
   top: 2.5%;
   left: 91%;
@@ -1637,7 +1645,7 @@ display: none;
 }
 
 
-.iconPortfolioButtonX
+.iconHoodButtonX
 {
   top: 2.5%;
   left: 91%;
@@ -1648,7 +1656,7 @@ display: none;
   padding: 0.18rem 0rem;
 }
 
-.iconEnvelopeButtonWindow
+.iconTwitterButtonWindow
 {
   top: 2.5%;
   left: 85%;
@@ -1660,7 +1668,7 @@ display: none;
 
 }
 
-.iconPortfolioButtonWindow
+.iconHoodButtonWindow
 
 {
   top: 2.5%;
@@ -1672,7 +1680,7 @@ display: none;
   padding: 0.25rem 0rem;
 }
 
-.envelopeImage
+.twitterImage
 {
   position: absolute;
   top: 20%;
@@ -1682,7 +1690,7 @@ display: none;
 
 
 
-.portfolioImage
+.hoodImage
 {
   position: absolute;
   top: 20%;
@@ -1691,7 +1699,7 @@ display: none;
 }
 
 
-.aBoutImage
+.visionImage
 {
   position: absolute;
   top: 20%;
@@ -1703,7 +1711,7 @@ display: none;
 
 
 
-.iconEnvelopeText
+.iconTwitterText
 {
   left: 7%;
   top: 80%;
@@ -1712,7 +1720,7 @@ position: absolute;
 
 }
 
-.iconPortfolioText
+.iconHoodText
 {
   left: 7%;
   top: 80%;
@@ -1721,7 +1729,7 @@ position: absolute;
 
 }
 
-.iconABoutText
+.iconVisionText
 {
   left: 7%;
   top: 80%;
@@ -1753,7 +1761,7 @@ p{
   @media (max-width: 695px) {
 
   /* icons and text for ico start */
-  .textIconEnvelope
+  .textIconTwitter
   {
     left: 3.7%;
     top: 70%;
@@ -1762,27 +1770,27 @@ p{
   }
   
   
-  .textIconPortfolio
+  .textIconHood
   {
     
     left: 2.5%;
   
-    top: 31%;
+    top: 33% !important; 
     font-size: 30px;
   }
   
   
   
   
-  .textIconABout
+  .textIconVision
   {
    
     left: 2.5%;
-    top: 50%;
+    top: 53% !important;
     font-size: 30px;
   }
   
-  .envelope
+  .twitter
   {
   
   left: 5%;
@@ -1790,7 +1798,7 @@ p{
   width: 70px;
   height: 70px;
   }
-  .portfolio
+  .hood
   {
   left: 5%;
   top: 20%;
@@ -1799,7 +1807,7 @@ p{
   }
   
   
-  .aBout
+  .vision
   {
   left: 5%;
   top: 40%;
@@ -1864,7 +1872,7 @@ p{
 
 
 /* system window  icone start  */
-.systemWindowIconEnvelope
+.systemWindowIconTwitter
 {
 
   top: -530px;
@@ -1880,7 +1888,7 @@ p{
 
 
 
-.systemWindowIconPortfolio
+.systemWindowIconHood
 
 {
   top: -530px;
@@ -1894,7 +1902,7 @@ p{
 
 }
 
-.systemWindowIconABout
+.systemWindowIconVision
 
 {
   top: -530px;
@@ -1913,7 +1921,7 @@ p{
 
 
 
-.blockCenterIconEnvelope
+.blockCenterIconTwitter
 {
   top: 1%;
   font-size: 30px;
@@ -1922,7 +1930,7 @@ p{
 
 }
 
-.blockCenterIconPortfolio
+.blockCenterIconHood
 {
   top: 1%;
   font-size: 30px;
@@ -1930,7 +1938,7 @@ p{
    height:35px;
 }
 
-.blockCenterIconABout
+.blockCenterIconVision
 
 {
   top: 1%;
@@ -1942,7 +1950,7 @@ p{
 
 
 
-.blockCenterIconEnvelopeText
+.blockCenterIconTwitterText
 {
   top: 2%;
 
@@ -1952,7 +1960,7 @@ p{
    font-size: 20px;
 }
 
-.iconEnvelopeButtonX
+.iconTwitterButtonX
 {
   top: 2.5%;
   left: 85%;
@@ -1965,7 +1973,7 @@ p{
 }
 
 
-.iconPortfolioButtonX
+.iconHoodButtonX
 {
   top: 2.5%;
   left: 85%;
@@ -1977,7 +1985,7 @@ p{
 
 }
 
-.iconABoutButtonX
+.iconVisionButtonX
 {
   top: 2.5%;
   left: 85%;
@@ -1993,7 +2001,7 @@ p{
 
 
 
-.iconEnvelopeButtonWindow
+.iconTwitterButtonWindow
 {
   top: 2.5%;
   left: 77%;
@@ -2005,20 +2013,7 @@ p{
 
 }
 
-.iconPortfolioButtonWindow
-{
-  top: 2.5%;
-  left: 77%;
- font-size: 12px;
-
-  width: 1rem;
-  margin: 0rem 1rem;
-  padding: 0.25rem 0rem;
-
-}
-
-
-.iconABoutButtonWindow
+.iconHoodButtonWindow
 {
   top: 2.5%;
   left: 77%;
@@ -2031,8 +2026,21 @@ p{
 }
 
 
+.iconVisionButtonWindow
+{
+  top: 2.5%;
+  left: 77%;
+ font-size: 12px;
 
-.envelopeImage
+  width: 1rem;
+  margin: 0rem 1rem;
+  padding: 0.25rem 0rem;
+
+}
+
+
+
+.twitterImage
 {
   position: absolute;
   top: 20%;
@@ -2041,7 +2049,7 @@ p{
 }
 
 
-.portfolioImage
+.hoodImage
 {
   
     position: absolute;
@@ -2052,7 +2060,7 @@ p{
   
 }
 
-.aBoutImage
+.visionImage
 {
   
     position: absolute;
@@ -2065,7 +2073,7 @@ p{
 
 
 
-.iconEnvelopeText
+.iconTwitterText
 {
   left: 1%;
   top: 70%;
@@ -2076,7 +2084,7 @@ position: absolute;
 
 
 
-.iconPortfolioText
+.iconHoodText
 {
   left: 1%;
   top: 70%;
@@ -2086,7 +2094,7 @@ position: absolute;
 }
 
 
-.iconABoutText
+.iconVisionText
 {
   left: 1%;
   top: 70%;
@@ -2126,7 +2134,7 @@ p{
 
 
     /* icons and text for ico start */
-    .textIconEnvelope
+    .textIconTwitter
     {
       left: 3.7%;
       top: 70%;
@@ -2135,7 +2143,7 @@ p{
     }
     
     
-    .textIconPortfolio
+    .textIconHood
     {
       
       left: 2.5%;
@@ -2147,7 +2155,7 @@ p{
     
     
     
-    .textIconABout
+    .textIconVision
     {
      
       left: 2.5%;
@@ -2155,7 +2163,7 @@ p{
       font-size: 30px;
     }
     
-    .envelope
+    .twitter
     {
     
     left: 5%;
@@ -2163,7 +2171,7 @@ p{
     width: 70px;
     height: 70px;
     }
-    .portfolio
+    .hood
     {
     left: 5%;
     top: 20%;
@@ -2172,7 +2180,7 @@ p{
     }
     
     
-    .aBout
+    .vision
     {
     left: 5%;
     top: 40%;
@@ -2249,53 +2257,53 @@ p{
 
 
     /* icons and text for ico start */ 
-    .textIconEnvelope
+    .textIconTwitter
     {
-      left: 3.7%;
-      top: 68%;
+      left: 11% !important;
+      top: 69%;
       font-size: 20px;
       
     }
     
     
-    .textIconPortfolio
+    .textIconHood
     {
       
-      left: 2.5%;
+      left: 7% !important;
     
-      top: 29%;
+      top: 33.5% !important;
       font-size: 20px;
     }
     
     
     
     
-    .textIconABout
+    .textIconVision
     {
      
-      left: 2.5%;
-      top: 48%;
+      left: 7% !important;
+      top: 54% !important;
       font-size: 20px;
     }
     
-    .envelope
+    .twitter
     {
     
-    left: 5%;
+    left: 8% !important;
     top: 60%;
     width: 60px;
     height: 60px;
     }
-    .portfolio
+    .hood
     {
-    left: 5%;
+    left: 5% !important;
     top: 20%;
     width: 60px;
     height: 60px;
     }
     
     
-    .aBout
+    .vision
     {
     left: 5%;
     top: 40%;
@@ -2364,7 +2372,7 @@ p{
 
 
     /* icons and text for ico start */ 
-    .textIconEnvelope
+    /* .textIconTwitter
     {
       left: 3.7%;
       top: 68%;
@@ -2373,7 +2381,7 @@ p{
     }
     
     
-    .textIconPortfolio
+    .textIconHood
     {
       
       left: 2.5%;
@@ -2385,7 +2393,7 @@ p{
     
     
     
-    .textIconABout
+    .textIconVision
     {
      
       left: 2.5%;
@@ -2393,7 +2401,7 @@ p{
       font-size: 20px;
     }
     
-    .envelope
+    .twitter
     {
     
     left: 5%;
@@ -2401,7 +2409,7 @@ p{
     width: 60px;
     height: 60px;
     }
-    .portfolio
+    .hood
     {
     left: 5%;
     top: 20%;
@@ -2410,13 +2418,13 @@ p{
     }
     
     
-    .aBout
+    .vision
     {
     left: 5%;
     top: 40%;
     width: 60px;
     height: 60px;
-    }
+    } */
     
     
     /* icons and text for ico end */
@@ -2496,7 +2504,7 @@ p{
   @media (max-width: 380px) {
 
     /* icons and text for ico start */ 
-    .textIconEnvelope
+    /* .textIconTwitter
     {
       left: 3.7%;
       top: 68%;
@@ -2505,7 +2513,7 @@ p{
     }
     
     
-    .textIconPortfolio
+    .textIconHood
     {
       
       left: 2.5%;
@@ -2517,7 +2525,7 @@ p{
     
     
     
-    .textIconABout
+    .textIconVision
     {
      
       left: 2.5%;
@@ -2525,7 +2533,7 @@ p{
       font-size: 20px;
     }
     
-    .envelope
+    .twitter
     {
     
     left: 5%;
@@ -2533,7 +2541,7 @@ p{
     width: 60px;
     height: 60px;
     }
-    .portfolio
+    .hood
     {
     left: 5%;
     top: 20%;
@@ -2542,13 +2550,13 @@ p{
     }
     
     
-    .aBout
+    .vision
     {
     left: 5%;
     top: 40%;
     width: 60px;
     height: 60px;
-    }
+    } */
     
     
     /* icons and text for ico end */
@@ -2596,7 +2604,7 @@ p{
 
 
     /* system window  icone start  */
-.systemWindowIconEnvelope
+.systemWindowIconTwitter
 {
 
   top: -530px;
@@ -2610,7 +2618,7 @@ p{
 
 }
 
-.systemWindowIconPortfolio
+.systemWindowIconHood
 {
   top: -530px;
   font-size: 30px;
@@ -2622,7 +2630,7 @@ p{
    height: 500px ;
 }
 
-.systemWindowIconABout
+.systemWindowIconVision
 {
   top: -530px;
   font-size: 30px;
@@ -2651,7 +2659,7 @@ p{
     @media (max-width: 334px) {
 
       /* icons and text for ico start */ 
-      .textIconEnvelope
+      /* .textIconTwitter
       {
         left: 3.7%;
         top: 68%;
@@ -2660,7 +2668,7 @@ p{
       }
       
       
-      .textIconPortfolio
+      .textIconHood
       {
         
         left: 2.5%;
@@ -2672,7 +2680,7 @@ p{
       
       
       
-      .textIconABout
+      .textIconVision
       {
        
         left: 2.5%;
@@ -2680,7 +2688,7 @@ p{
         font-size: 20px;
       }
       
-      .envelope
+      .twitter
       {
       
       left: 5%;
@@ -2688,7 +2696,7 @@ p{
       width: 60px;
       height: 60px;
       }
-      .portfolio
+      .hood
       {
       left: 5%;
       top: 20%;
@@ -2697,14 +2705,14 @@ p{
       }
       
       
-      .aBout
+      .vision
       {
       left: 5%;
       top: 40%;
       width: 60px;
       height: 60px;
       }
-      
+       */
       
       /* icons and text for ico end */
       
