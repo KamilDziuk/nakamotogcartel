@@ -249,7 +249,7 @@ clickTwitter()
  this._twitter.addEventListener('click', () =>
  {
  
-       this._systemWindowIconTwitter.style.display = 'block'
+       this._systemWindowIconTwitter.style.display = 'none'
      
    
  })
@@ -258,7 +258,7 @@ clickTwitter()
  this._textIconTwitterSystemWindow.addEventListener('click', () =>
   {
   
-        this._systemWindowIconTwitter.style.display = 'block'
+        this._systemWindowIconTwitter.style.display = 'none'
       
     
   })
