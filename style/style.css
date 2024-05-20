@@ -5,7 +5,7 @@
 }
 
 body {
-background-color:rgb(226, 222, 169);
+background-color:#4A6C8F;
 font-family: "Pixelify Sans", sans-serif;
 overflow-y: hidden;
 overflow-x: hidden;
@@ -34,7 +34,7 @@ overflow-x: hidden;
 
 
 
-.textIconServices
+.textIconABout
 {
   position: absolute;
   left: 2.5%;
@@ -61,7 +61,7 @@ height: 70px;
 }
 
 
-.services
+.aBout
 {
 position: absolute;
 left: 5%;
@@ -70,6 +70,27 @@ width: 70px;
 height: 70px;
 }
 
+
+.connectTwitter
+{
+  top: 100%;
+  font-size: 15px;
+  border: none;
+   position: absolute;
+   display: flex;
+   width: 8rem;
+   left: 44%;
+   margin: 0rem 1rem;
+   padding: 0.50rem 0rem;
+   -webkit-box-pack: center;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-weight: 400;
+   font-family: "Pixelify Sans", sans-serif;
+   box-shadow:-3px -3px 0 0 #fff, 2px 2px 0 1px #a7a7a7
+
+}
 
 /* icons and text for ico end */
 
@@ -156,7 +177,7 @@ height: 70px;
 
 
 
-.textIconServicesSystemWindow
+.textIconABoutSystemWindow
 {
   position: absolute;
   left: 33%;
@@ -175,7 +196,7 @@ background: #a7a7a7;
 
 
 
-.textIconServicesSystemWindow:hover
+.textIconABoutSystemWindow:hover
 {
 background: #a7a7a7;
   width: 140px;
@@ -223,7 +244,7 @@ height: 35px;
 }
 
 
-.servicesSystemWindow
+.aBoutSystemWindow
 {
 position: absolute;
 left: 13%;
@@ -525,8 +546,8 @@ p{
 
 
 
-/* system window  icone  Services start  */
-.systemWindowIconServices
+/* system window  icone  ABout start  */
+.systemWindowIconABout
 {
   background-color:rgb(236, 236, 236);
   top: -590px;
@@ -548,7 +569,7 @@ p{
   box-shadow:-3px -3px 0 0 #fff, 2px 2px 0 1px #a7a7a7
 }
 
-.blockCenterIconServices
+.blockCenterIconABout
 {
   top: 1%;
   font-size: 30px;
@@ -565,7 +586,7 @@ p{
 }
 
 
-.blockCenterIconServicesText
+.blockCenterIconABoutText
 {
   top: 2%;
   border: none;
@@ -580,7 +601,7 @@ p{
    font-size: 20px;
 }
 
-.iconServicesButtonX
+.iconABoutButtonX
 {
   top: 2.5%;
   left: 91%;
@@ -602,7 +623,7 @@ p{
   z-index: 2;
 }
 
-.iconServicesButtonWindow
+.iconABoutButtonWindow
 {
   top: 2.5%;
   left: 85%;
@@ -624,7 +645,7 @@ p{
   z-index: 2;
 }
 
-.servicesImage
+.aBoutImage
 {
   position: absolute;
   left: 22%;
@@ -632,7 +653,7 @@ p{
   max-width:60%;
   max-height:55%;
 }
-.iconServicesText
+.iconABoutText
 {
   left: 7%;
   top: 80%;
@@ -647,7 +668,7 @@ p{
   font-size: 15px;
 }
 
-/* system window icone  Services end */
+/* system window icone  ABout end */
 
 
 
@@ -723,13 +744,13 @@ footer
     width: 8rem;
     margin: 0rem 1rem;
     padding: 0.50rem 0rem;
-    justify-content: center;
+    /* justify-content: center;
     align-items: center;
     text-align: center;
     font-weight: 400;
     font-family: "Pixelify Sans", sans-serif;
     box-shadow: -3px -3px 0 0 #fff, 2px 2px 0 1px #a7a7a7;
-  
+   */
 
 
 }
@@ -857,11 +878,12 @@ a {
 
 #inner {
   position: relative;
-  margin-top: 10%;
+  margin-top: 8%;
   left: 40%;
   width: 20em;
   height: 18em;
-  background-color: white;
+  padding-bottom: 0.5%;
+  background-color: rgba(255, 255, 255, 0);
 
   transition: transform 0.5s;
   -webkit-transition: transform 0.5s;
@@ -912,7 +934,7 @@ a {
 
 
 
-.textIconServices
+.textIconABout
 {
  
   left: 2.5%;
@@ -937,7 +959,7 @@ height: 70px;
 }
 
 
-.services
+.aBout
 {
 left: 5%;
 top: 40%;
@@ -979,7 +1001,7 @@ height: 70px;
 }
 
 
-.systemWindowIconServices
+.systemWindowIconABout
 {
   
   top: -530px;
@@ -1011,7 +1033,7 @@ height: 70px;
 
 }
 
-.blockCenterIconServices
+.blockCenterIconABout
 {
   top: 1%;
   font-size: 30px;
@@ -1055,7 +1077,7 @@ height: 70px;
   padding: 0.18rem 0rem;
 
 }
-.iconServicesButtonX
+.iconABoutButtonX
 {
   top: 2.5%;
   left: 91%;
@@ -1094,7 +1116,7 @@ height: 70px;
 
 }
 
-.iconServicesButtonWindow
+.iconABoutButtonWindow
 {
   top: 2.5%;
   left: 85%;
@@ -1121,7 +1143,7 @@ height: 70px;
   max-width:60%;
   max-height:55%;
 }
-.servicesImage
+.aBoutImage
 {
   position: absolute;
   top: 20%;
@@ -1152,7 +1174,7 @@ position: absolute;
 
 
 
-.iconServicesText
+.iconABoutText
 {
   left: 7%;
   top: 80%;
@@ -1376,7 +1398,7 @@ display: none;
   
   
   
-  .textIconServices
+  .textIconABout
   {
    
     left: 2.5%;
@@ -1401,7 +1423,7 @@ display: none;
   }
   
   
-  .services
+  .aBout
   {
   left: 5%;
   top: 40%;
@@ -1548,7 +1570,7 @@ display: none;
 }
 
 
-.systemWindowIconServices
+.systemWindowIconABout
 {
 
   top: -530px;
@@ -1583,7 +1605,7 @@ display: none;
    height:35px;
 }
 
-.blockCenterIconServices
+.blockCenterIconABout
 {
   top: 1%;
   font-size: 30px;
@@ -1671,7 +1693,7 @@ display: none;
 }
 
 
-.servicesImage
+.aBoutImage
 {
   position: absolute;
   top: 20%;
@@ -1701,7 +1723,7 @@ position: absolute;
 
 }
 
-.iconServicesText
+.iconABoutText
 {
   left: 7%;
   top: 80%;
@@ -1754,7 +1776,7 @@ p{
   
   
   
-  .textIconServices
+  .textIconABout
   {
    
     left: 2.5%;
@@ -1779,7 +1801,7 @@ p{
   }
   
   
-  .services
+  .aBout
   {
   left: 5%;
   top: 40%;
@@ -1874,7 +1896,7 @@ p{
 
 }
 
-.systemWindowIconServices
+.systemWindowIconABout
 
 {
   top: -530px;
@@ -1910,7 +1932,7 @@ p{
    height:35px;
 }
 
-.blockCenterIconServices
+.blockCenterIconABout
 
 {
   top: 1%;
@@ -1957,7 +1979,7 @@ p{
 
 }
 
-.iconServicesButtonX
+.iconABoutButtonX
 {
   top: 2.5%;
   left: 85%;
@@ -1998,7 +2020,7 @@ p{
 }
 
 
-.iconServicesButtonWindow
+.iconABoutButtonWindow
 {
   top: 2.5%;
   left: 77%;
@@ -2032,7 +2054,7 @@ p{
   
 }
 
-.servicesImage
+.aBoutImage
 {
   
     position: absolute;
@@ -2066,7 +2088,7 @@ position: absolute;
 }
 
 
-.iconServicesText
+.iconABoutText
 {
   left: 1%;
   top: 70%;
@@ -2127,7 +2149,7 @@ p{
     
     
     
-    .textIconServices
+    .textIconABout
     {
      
       left: 2.5%;
@@ -2152,7 +2174,7 @@ p{
     }
     
     
-    .services
+    .aBout
     {
     left: 5%;
     top: 40%;
@@ -2250,7 +2272,7 @@ p{
     
     
     
-    .textIconServices
+    .textIconABout
     {
      
       left: 2.5%;
@@ -2275,7 +2297,7 @@ p{
     }
     
     
-    .services
+    .aBout
     {
     left: 5%;
     top: 40%;
@@ -2366,7 +2388,7 @@ p{
     
     
     
-    .textIconServices
+    .textIconABout
     {
      
       left: 2.5%;
@@ -2391,7 +2413,7 @@ p{
     }
     
     
-    .services
+    .aBout
     {
     left: 5%;
     top: 40%;
@@ -2494,7 +2516,7 @@ p{
     
     
     
-    .textIconServices
+    .textIconABout
     {
      
       left: 2.5%;
@@ -2519,7 +2541,7 @@ p{
     }
     
     
-    .services
+    .aBout
     {
     left: 5%;
     top: 40%;
@@ -2607,7 +2629,7 @@ p{
    height: 500px ;
 }
 
-.systemWindowIconServices
+.systemWindowIconABout
 {
   top: -530px;
   font-size: 30px;
@@ -2651,7 +2673,7 @@ p{
       
       
       
-      .textIconServices
+      .textIconABout
       {
        
         left: 2.5%;
@@ -2676,7 +2698,7 @@ p{
       }
       
       
-      .services
+      .aBout
       {
       left: 5%;
       top: 40%;

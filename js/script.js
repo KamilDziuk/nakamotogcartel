@@ -420,17 +420,17 @@ resultsClickportfolio.clickPortfolioClose();
 // system  window  icone  Portfolio end
 
 
-// system  window  icone  Services  start
+// system  window  icone  ABout  start
 
-class SystemWindoMenuIconeServices
+class SystemWindoMenuIconeABout
 {
 constructor()
 {
   
-  this._iconServicesButtonX = document.querySelector('.iconServicesButtonX');
-this._systemWindowIconServices = document.querySelector('.systemWindowIconServices');
- this._services = document.querySelector('.services');
- this._textIconServicesSystemWindow = document.querySelector('.textIconServicesSystemWindow');
+  this._iconABoutButtonX = document.querySelector('.iconABoutButtonX');
+this._systemWindowIconABout = document.querySelector('.systemWindowIconABout');
+ this._aBout = document.querySelector('.aBout');
+ this._textIconABoutSystemWindow = document.querySelector('.textIconABoutSystemWindow');
  this._clickOnIcone = false;
 }
 
@@ -440,12 +440,12 @@ get clickOnIcone ()
 }
 
 
-get textIconServicesSystemWindow ()
+get textIconABoutSystemWindow ()
 {
- return this._textIconServicesSystemWindow; 
+ return this._textIconABoutSystemWindow; 
 }
 
-get iconServicesButtonX ()
+get iconABoutButtonX ()
 {
  return this._clickOnIcone; 
 }
@@ -453,22 +453,22 @@ get iconServicesButtonX ()
 
 get systemWindo()
 {
- return this._systemWindowIconServices; 
+ return this._systemWindowIconABout; 
 }
 
-get services()
+get aBout()
 {
- return this._services; 
+ return this._aBout; 
 }
 
 set systemWindo(value)
 {
-  this._systemWindowIconServices = value; 
+  this._systemWindowIconABout = value; 
 }
 
-set services(value)
+set aBout(value)
 {
-  this._services = value; 
+  this._aBout = value; 
 }
 
 set clickOnIcone(value)
@@ -477,34 +477,34 @@ set clickOnIcone(value)
 }
 
 
-set iconServicesButtonX (value)
+set iconABoutButtonX (value)
 {
   this._clickOnIcone = value; 
 }
 
-set textIconServicesSystemWindow (value)
+set textIconABoutSystemWindow (value)
 {
-  this._textIconServicesSystemWindow = value; 
+  this._textIconABoutSystemWindow = value; 
 }
 
 
 
-clickServices()
+clickABout()
 {
- this._systemWindowIconServices.style.display = 'none'
- this._services.addEventListener('click', () =>
+ this._systemWindowIconABout.style.display = 'none'
+ this._aBout.addEventListener('click', () =>
  {
  
-       this._systemWindowIconServices.style.display = 'block'
+       this._systemWindowIconABout.style.display = 'block'
      
    
  })
 
 
- this._textIconServicesSystemWindow.addEventListener('click', () =>
+ this._textIconABoutSystemWindow.addEventListener('click', () =>
   {
   
-        this._systemWindowIconServices.style.display = 'block'
+        this._systemWindowIconABout.style.display = 'block'
       
     
   })
@@ -513,18 +513,18 @@ clickServices()
 
 
 
-clickServicesClose()
+clickABoutClose()
 {
 
 
 
 this._clickOnIcone =  !this._clickOnIcone;
 
-this._iconServicesButtonX.addEventListener('click', () =>{
+this._iconABoutButtonX.addEventListener('click', () =>{
 if( this._clickOnIcone == true)
 
   {
-    this._systemWindowIconServices.style.display = 'none'
+    this._systemWindowIconABout.style.display = 'none'
   }
 })
 }
@@ -532,14 +532,14 @@ if( this._clickOnIcone == true)
 
 
 };
-let resultsClickservices = new SystemWindoMenuIconeServices();
+let resultsClickaBout = new SystemWindoMenuIconeABout();
 
-resultsClickservices.clickServices();
-resultsClickservices.clickServicesClose();
+resultsClickaBout.clickABout();
+resultsClickaBout.clickABoutClose();
 
 
 
-// system  window  icone  Services end
+// system  window  icone  ABout end
 
 
 
