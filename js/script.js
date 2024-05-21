@@ -84,8 +84,8 @@ if( this._hours < 12)
     this._suffix  = "PM";
   }
 
-
-  this._clockOnTheTaskbar.innerHTML = `${this._data.toLocaleTimeString()} ${this._suffix} `
+  const options = { timeZone: 'America/New_York' };
+  this._clockOnTheTaskbar.innerHTML = `${this._data.toLocaleTimeString('en-US',options)} `
 
 
   },1000)
