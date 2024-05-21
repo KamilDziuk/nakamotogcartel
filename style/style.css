@@ -850,7 +850,7 @@ footer
 {
   position: absolute;
 
-  left: 70%;
+  left: 70% !important;
   top: 19%;
   font-size: 30px;
 }
@@ -860,7 +860,7 @@ footer
 .fa
 {
   position: absolute;
-  left: 67%;
+  left: 67% !important;
   top: 18%;
   font-size: 45px !important; 
 
@@ -1310,7 +1310,7 @@ footer
 .clockOnTheTaskbar
 {
 
-  left:75%;
+  left:75% !important;
   top: 19%;
   font-size: 30px;
 }
@@ -1320,7 +1320,7 @@ footer
 .fa
 {
 
-  left: 72%;
+  left: 72% !important;
   top: 18%;
   font-size: 45px !important; 
 
@@ -1382,8 +1382,11 @@ a {
 
   /* moving text start */
   .movingText {
-   
-display: none;
+ 
+    top:  15px;
+    height: 150px;
+    max-width: 56.2%;
+    margin-left: 185px;
   
   }
   /* moving text end */
@@ -1391,18 +1394,23 @@ display: none;
     /* fence start */
     .blockLeft
     {
-      display: none;
-    }
-    .blockRight
-    {
-      display: none;
+      top: 15%;
+      font-size: 30px;
+    
+        left: 10.9%;
+       width: 4px;
+       height:2.3rem;
+       margin: 0rem 1rem;
+       padding: 0.50rem 0rem;
+    
+       
     }
     /* fence end  */
   /* clock on the top bar start */
 .clockOnTheTaskbar
 {
 
-  left:68%;
+  left:77%;
   top: 19%;
   font-size: 30px;
 }
@@ -1412,7 +1420,7 @@ display: none;
 .fa
 {
 
-  left: 65%;
+  left: 74%;
   top: 18%;
   font-size: 45px !important; 
 
@@ -1420,7 +1428,25 @@ display: none;
 /* clock icone end  */
 }
 
-@media (max-width: 1195px) {
+
+@media (max-width:1320px) {
+
+  .blockLeft
+  {
+    display: none;
+  }
+  .blockRight
+  {
+    display: none;
+  }
+
+  .movingText {
+        display: none;
+      
+    }
+
+}
+
 
 
   /* icons and text for ico start */
@@ -1542,6 +1568,20 @@ display: none;
   
   }
   /* clock icone end  */
+  
+  @media (max-width: 1000px) {
+    .fa
+    {
+    
+   display: none;
+    
+    }
+
+    .clockOnTheTaskbar
+    {
+      display: none;
+    }
+    
   }
 
   @media (max-width: 830px) {
