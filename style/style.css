@@ -14,8 +14,8 @@
 body {
 background-color:#4A6C8F;
 font-family: "Pixelify Sans", sans-serif;
-overflow-y: hidden;
-overflow-x: hidden;
+overflow-y: hidden !important;
+overflow-x: hidden !important;
 }
 
 /* icons and text for ico start */
@@ -34,7 +34,7 @@ overflow-x: hidden;
   position: absolute;
   left: 5% !important;
   
-  top: 32% !important;
+  top: 33% !important;
   font-size: 30px;
 }
 
@@ -46,7 +46,7 @@ overflow-x: hidden;
   position: absolute;
   left: 4.5% !important;
  
-  top: 52% !important;
+  top: 53% !important;
   font-size: 30px;
 }
 
@@ -596,7 +596,7 @@ p{
 {
   background-color:rgb(236, 236, 236);
   top: -590px;
- font-size: 30px;
+ font-size: 20px !important;
  left: 35%;
  border: none;
   position: absolute;
@@ -604,13 +604,13 @@ p{
   width: 500px;
   height: 500px ;
   margin: 0rem 1rem;
-  padding: 0.50rem 0rem;
+  padding: 1rem 0.20rem;
   -webkit-box-pack: center;
   justify-content: center;
   align-items: center;
   text-align: center;
   font-weight: 400;
-  font-family: "Pixelify Sans", sans-serif;
+  /* font-family: */
   box-shadow:-3px -3px 0 0 #fff, 2px 2px 0 1px #a7a7a7
 }
 
@@ -986,7 +986,7 @@ a {
 {
  
   left: 2.5%;
-  top: 50%;
+  top: 51%;
   font-size: 30px;
 }
 
@@ -1625,7 +1625,7 @@ display: none;
 {
 
   top: -530px;
- font-size: 30px;
+  font-size: 15px !important;
  left: 23%;
 
   position: absolute;
@@ -2685,7 +2685,7 @@ p{
   top: -530px;
   font-size: 30px;
   left: 1%;
- 
+
    position: absolute;
    display: flex;
    width: 300px;
