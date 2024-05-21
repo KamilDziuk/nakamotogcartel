@@ -22,10 +22,10 @@ overflow-x: hidden !important;
 .textIconTwitter
 {
   position: absolute;
-  left: 3% !important;
+  left: 45% !important;
   top: 68% !important;
   font-size: 30px;
-  
+  padding-top: 5px;
 }
 
 
@@ -33,8 +33,8 @@ overflow-x: hidden !important;
 {
   position: absolute;
   left: 5% !important;
-  
-  top: 33% !important;
+  padding-top: 5px !important;
+
   font-size: 30px;
 }
 
@@ -45,8 +45,8 @@ overflow-x: hidden !important;
 {
   position: absolute;
   left: 4.5% !important;
- 
-  top: 53% !important;
+  padding-top: 5px !important;
+
   font-size: 30px;
 }
 
@@ -54,7 +54,7 @@ overflow-x: hidden !important;
 {
 position: absolute;
 left: 5%;
-top: 62%;
+top: 64% !important;
 width: 70px;
 height: 70px;
 }
@@ -62,7 +62,7 @@ height: 70px;
 {
 position: absolute;
 left: 5%;
-top: 20%;
+top: 21% !important;
 
 width: 90px !important;
 height: 90px !important;
@@ -101,7 +101,7 @@ height: 90px !important;
 {
 position: absolute;
 left: 4.5% !important;
-top: 40%;
+top: 42% !important;
 width: 70px;
 height: 70px;
 }
@@ -1452,8 +1452,8 @@ a {
   /* icons and text for ico start */
   .textIconTwitter
   {
-    left: 2% !important;
-    top: 69% !important;
+    left: 2.5% !important;
+    top: 71.5% !important;
     font-size: 30px;
     
   }
@@ -1464,7 +1464,7 @@ a {
     
     left: 2.5%;
   
-    top: 33% !important;
+    top: 32.5% !important;
     font-size: 30px;
   }
   
@@ -1871,7 +1871,7 @@ p{
   {
    
     left: 2.5%;
-    top: 54% !important;
+    top: 55.5% !important;
     font-size: 30px;
   }
   
@@ -2177,7 +2177,7 @@ position: absolute;
 .iconHoodText
 {
   left: 1%;
-  top: 70%;
+  top: 72%;
 position: absolute;
   color: #000000;
   font-size:20px;
@@ -2372,7 +2372,7 @@ p{
     {
      
       left: 5.6% !important;
-      top: 54% !important;
+      top: 55.5% !important;
       font-size: 20px;
     }
     
@@ -2483,13 +2483,7 @@ p{
     
     
     
-    .textIconVision
-    {
-     
-      left: 2.5%;
-      top: 48%;
-      font-size: 20px;
-    }
+    
     
     .twitter
     {
