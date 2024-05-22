@@ -174,17 +174,17 @@ resultsClickMenuButtom.clickMenuButtom();
 
 
 
-// system  window  icone  Twitter  start
+// system  window  icone  Join  start
 
-class SystemWindoMenuIconeTwitter
+class SystemWindoMenuIconeJoin
 {
 constructor()
 {
   
-  this._iconTwitterButtonX = document.querySelector('.iconTwitterButtonX');
-this._systemWindowIconTwitter = document.querySelector('.systemWindowIconTwitter');
- this._twitter = document.querySelector('.twitter');
- this._textIconTwitterSystemWindow = document.querySelector('.textIconTwitterSystemWindow');
+  this._iconJoinButtonX = document.querySelector('.iconJoinButtonX');
+this._systemWindowIconJoin = document.querySelector('.systemWindowIconJoin');
+ this._join = document.getElementById('buttonHood');
+ this._textIconJoinSystemWindow = document.querySelector('.textIconJoinSystemWindow');
  this._clickOnIcone = false;
 }
 
@@ -194,12 +194,12 @@ get clickOnIcone ()
 }
 
 
-get textIconTwitterSystemWindow ()
+get textIconJoinSystemWindow ()
 {
- return this._textIconTwitterSystemWindow; 
+ return this._textIconJoinSystemWindow; 
 }
 
-get iconTwitterButtonX ()
+get iconJoinButtonX ()
 {
  return this._clickOnIcone; 
 }
@@ -207,22 +207,22 @@ get iconTwitterButtonX ()
 
 get systemWindo()
 {
- return this._systemWindowIconTwitter; 
+ return this._systemWindowIconJoin; 
 }
 
-get twitter()
+get join()
 {
- return this._twitter; 
+ return this._join; 
 }
 
 set systemWindo(value)
 {
-  this._systemWindowIconTwitter = value; 
+  this._systemWindowIconJoin = value; 
 }
 
-set twitter(value)
+set join(value)
 {
-  this._twitter = value; 
+  this._join = value; 
 }
 
 set clickOnIcone(value)
@@ -231,54 +231,48 @@ set clickOnIcone(value)
 }
 
 
-set iconTwitterButtonX (value)
+set iconJoinButtonX (value)
 {
   this._clickOnIcone = value; 
 }
 
-set textIconTwitterSystemWindow (value)
+set textIconJoinSystemWindow (value)
 {
-  this._textIconTwitterSystemWindow = value; 
+  this._textIconJoinSystemWindow = value; 
 }
 
 
 
-clickTwitter()
+clickJoin()
 {
- this._systemWindowIconTwitter.style.display = 'none'
- this._twitter.addEventListener('click', () =>
+  
+ this._systemWindowIconJoin.style.display = 'none'
+ this._join.addEventListener('click', () =>
  {
  
-       this._systemWindowIconTwitter.style.display = 'none'
-     
+       this._systemWindowIconJoin.style.display = 'block'
+    
    
  })
 
 
- this._textIconTwitterSystemWindow.addEventListener('click', () =>
-  {
-  
-        this._systemWindowIconTwitter.style.display = 'none'
-      
-    
-  })
 
 }
 
 
 
-clickTwitterClose()
+clickJoinClose()
 {
 
 
 
 this._clickOnIcone =  !this._clickOnIcone;
-
-this._iconTwitterButtonX.addEventListener('click', () =>{
+this._systemWindowIconJoin.style.display = 'none'
+this._iconJoinButtonX.addEventListener('click', () =>{
 if( this._clickOnIcone == true)
 
   {
-    this._systemWindowIconTwitter.style.display = 'none'
+    this._systemWindowIconJoin.style.display = 'none'
   }
 })
 }
@@ -286,14 +280,14 @@ if( this._clickOnIcone == true)
 
 
 };
-let resultsClicktwitter = new SystemWindoMenuIconeTwitter();
+let resultsClickjoin = new SystemWindoMenuIconeJoin();
 
-resultsClicktwitter.clickTwitter();
-resultsClicktwitter.clickTwitterClose();
+resultsClickjoin.clickJoin();
+resultsClickjoin.clickJoinClose();
 
 
 
-// system  window  icone  Twitter end
+// system  window  icone  Join end
 
 
 

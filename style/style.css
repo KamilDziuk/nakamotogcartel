@@ -19,13 +19,14 @@ overflow-x: hidden !important;
 }
 
 /* icons and text for ico start */
-.textIconTwitter
+.textIconJoin
 {
   position: absolute;
   left: 45% !important;
   top: 68% !important;
   font-size: 30px;
   padding-top: 5px;
+  
 }
 
 
@@ -200,7 +201,7 @@ height: 70px;
 
 
 
-.textIconTwitterSystemWindow
+.textIconJoinSystemWindow
 {
   position: absolute;
   left: 33%;
@@ -259,7 +260,7 @@ background: #a7a7a7;
 
 
 
-.textIconTwitterSystemWindow:hover
+.textIconJoinSystemWindow:hover
 {
 background: #a7a7a7;
   width: 140px;
@@ -288,6 +289,17 @@ width: 35px;
 height: 35px;
 }
 
+
+
+
+a.custom-link:hover {
+  background-color: #ccc; /* Opcjonalne: Inny kolor tła po najechaniu myszą */
+}
+
+/* Po kliknięciu */
+a.custom-link:active {
+  background-color: #999; /* Opcjonalne: Inny kolor tła po kliknięciu */
+}
 
 .visionSystemWindow
 {
@@ -334,7 +346,7 @@ height:35px !important;
 
 
 /* system window  icone  twitter start  */
-.systemWindowIconTwitter
+.systemWindowIconJoin
 {
   background-color:rgb(236, 236, 236);
   top: -590px;
@@ -353,10 +365,12 @@ height:35px !important;
   text-align: center;
   font-weight: 400;
   font-family: "Pixelify Sans", sans-serif;
-  box-shadow:-3px -3px 0 0 #fff, 2px 2px 0 1px #a7a7a7
+  box-shadow:-3px -3px 0 0 #fff, 2px 2px 0 1px #a7a7a7;
+  z-index: 3;
+  
 }
 
-.blockCenterIconTwitter
+.blockCenterIconJoin
 {
   top: 1%;
   font-size: 30px;
@@ -373,7 +387,7 @@ height:35px !important;
 }
 
 
-.blockCenterIconTwitterText
+.blockCenterIconJoinText
 {
   top: 2%;
   border: none;
@@ -388,7 +402,7 @@ height:35px !important;
    font-size: 20px;
 }
 
-.iconTwitterButtonX
+.iconJoinButtonX
 {
   top: 2.5%;
   left: 91%;
@@ -410,7 +424,7 @@ height:35px !important;
   z-index: 2;
 }
 
-.iconTwitterButtonWindow
+.iconJoinButtonWindow
 {
   top: 2.5%;
   left: 85%;
@@ -440,7 +454,7 @@ height:35px !important;
   max-width:60%;
   max-height:55%;
 }
-.iconTwitterText
+.iconJoinText
 {
   left: 7%;
   top: 80%;
@@ -961,7 +975,7 @@ a {
 
 
 /* icons and text for ico start */
-.textIconTwitter
+.textIconJoin
 {
   left: 3.7%;
   top: 69% !important;
@@ -1020,7 +1034,7 @@ height: 70px;
 
 
 /* system window  icone start  */
-.systemWindowIconTwitter
+.systemWindowIconJoin
 {
 
   top: -530px;
@@ -1063,7 +1077,7 @@ height: 70px;
 }
 
 
-.blockCenterIconTwitter
+.blockCenterIconJoin
 {
   top: 1%;
   font-size: 30px;
@@ -1091,7 +1105,7 @@ height: 70px;
 }
 
 
-.blockCenterIconTwitterText
+.blockCenterIconJoinText
 {
   top: 2%;
 
@@ -1101,7 +1115,7 @@ height: 70px;
    font-size: 20px;
 }
 
-.iconTwitterButtonX
+.iconJoinButtonX
 {
   top: 2.5%;
   left: 91%;
@@ -1139,7 +1153,7 @@ height: 70px;
 
 
 
-.iconTwitterButtonWindow
+.iconJoinButtonWindow
 {
   top: 2.5%;
   left: 85%;
@@ -1203,7 +1217,7 @@ height: 70px;
 
 
 
-.iconTwitterText
+.iconJoinText
 {
   left: 7%;
   top: 80%;
@@ -1450,7 +1464,7 @@ a {
 
 
   /* icons and text for ico start */
-  .textIconTwitter
+  .textIconJoin
   {
     left: 2.5% !important;
     top: 71.5% !important;
@@ -1632,7 +1646,7 @@ a {
 
 
  /* system window  icone start  */
-.systemWindowIconTwitter
+.systemWindowIconJoin
 {
 
   top: -530px;
@@ -1678,7 +1692,7 @@ a {
 
 
 
-.blockCenterIconTwitter
+.blockCenterIconJoin
 {
   top: 1%;
   font-size: 30px;
@@ -1707,7 +1721,7 @@ a {
 
 
 
-.blockCenterIconTwitterText
+.blockCenterIconJoinText
 {
   top: 2%;
 
@@ -1717,7 +1731,7 @@ a {
    font-size: 20px;
 }
 
-.iconTwitterButtonX
+.iconJoinButtonX
 {
   top: 2.5%;
   left: 91%;
@@ -1741,7 +1755,7 @@ a {
   padding: 0.18rem 0rem;
 }
 
-.iconTwitterButtonWindow
+.iconJoinButtonWindow
 {
   top: 2.5%;
   left: 85%;
@@ -1796,7 +1810,7 @@ a {
 
 
 
-.iconTwitterText
+.iconJoinText
 {
   left: 7%;
   top: 80%;
@@ -1846,7 +1860,7 @@ p{
   @media (max-width: 695px) {
 
   /* icons and text for ico start */
-  .textIconTwitter
+  .textIconJoin
   {
     left: 3.7%;
     top: 70%;
@@ -1962,7 +1976,7 @@ left: 24%;
 
 
 /* system window  icone start  */
-.systemWindowIconTwitter
+.systemWindowIconJoin
 {
 
   top: -530px;
@@ -2011,7 +2025,7 @@ left: 24%;
 
 
 
-.blockCenterIconTwitter
+.blockCenterIconJoin
 {
   top: 1%;
   font-size: 30px;
@@ -2040,7 +2054,7 @@ left: 24%;
 
 
 
-.blockCenterIconTwitterText
+.blockCenterIconJoinText
 {
   top: 2%;
 
@@ -2050,7 +2064,7 @@ left: 24%;
    font-size: 20px;
 }
 
-.iconTwitterButtonX
+.iconJoinButtonX
 {
   top: 2.5%;
   left: 85%;
@@ -2091,7 +2105,7 @@ left: 24%;
 
 
 
-.iconTwitterButtonWindow
+.iconJoinButtonWindow
 {
   top: 2.5%;
   left: 77%;
@@ -2163,7 +2177,7 @@ left: 24%;
 
 
 
-.iconTwitterText
+.iconJoinText
 {
   left: 1%;
   top: 70%;
@@ -2224,7 +2238,7 @@ p{
 
 
     /* icons and text for ico start */
-    .textIconTwitter
+    .textIconJoin
     {
       left: 3%;
       top: 70%;
@@ -2347,7 +2361,7 @@ p{
 
 
     /* icons and text for ico start */ 
-    .textIconTwitter
+    .textIconJoin
     {
       left: 2% !important;
       top: 69%;
@@ -2462,7 +2476,7 @@ p{
 
 
     /* icons and text for ico start */ 
-    /* .textIconTwitter
+    /* .textIconJoin
     {
       left: 3.7%;
       top: 68%;
@@ -2588,7 +2602,7 @@ p{
   @media (max-width: 380px) {
 
     /* icons and text for ico start */ 
-    /* .textIconTwitter
+    /* .textIconJoin
     {
       left: 3.7%;
       top: 68%;
@@ -2688,7 +2702,7 @@ p{
 
 
     /* system window  icone start  */
-.systemWindowIconTwitter
+.systemWindowIconJoin
 {
 
   top: -530px;
@@ -2743,7 +2757,7 @@ p{
     @media (max-width: 334px) {
 
       /* icons and text for ico start */ 
-      /* .textIconTwitter
+      /* .textIconJoin
       {
         left: 3.7%;
         top: 68%;
