@@ -174,121 +174,6 @@ resultsClickMenuButtom.clickMenuButtom();
 
 
 
-// system  window  icone  Join  start
-
-class SystemWindoMenuIconeJoin
-{
-constructor()
-{
-  
-  this._iconJoinButtonX = document.querySelector('.iconJoinButtonX');
-this._systemWindowIconJoin = document.querySelector('.systemWindowIconJoin');
- this._join = document.getElementById('buttonHood');
- this._textIconJoinSystemWindow = document.querySelector('.textIconJoinSystemWindow');
- this._clickOnIcone = false;
-}
-
-get clickOnIcone ()
-{
- return this._clickOnIcone; 
-}
-
-
-get textIconJoinSystemWindow ()
-{
- return this._textIconJoinSystemWindow; 
-}
-
-get iconJoinButtonX ()
-{
- return this._clickOnIcone; 
-}
-
-
-get systemWindo()
-{
- return this._systemWindowIconJoin; 
-}
-
-get join()
-{
- return this._join; 
-}
-
-set systemWindo(value)
-{
-  this._systemWindowIconJoin = value; 
-}
-
-set join(value)
-{
-  this._join = value; 
-}
-
-set clickOnIcone(value)
-{
- this._clickOnIcone = value; 
-}
-
-
-set iconJoinButtonX (value)
-{
-  this._clickOnIcone = value; 
-}
-
-set textIconJoinSystemWindow (value)
-{
-  this._textIconJoinSystemWindow = value; 
-}
-
-
-
-clickJoin()
-{
-  
- this._systemWindowIconJoin.style.display = 'none'
- this._join.addEventListener('click', () =>
- {
- 
-       this._systemWindowIconJoin.style.display = 'block'
-    
-   
- })
-
-
-
-}
-
-
-
-clickJoinClose()
-{
-
-
-
-this._clickOnIcone =  !this._clickOnIcone;
-this._systemWindowIconJoin.style.display = 'none'
-this._iconJoinButtonX.addEventListener('click', () =>{
-if( this._clickOnIcone == true)
-
-  {
-    this._systemWindowIconJoin.style.display = 'none'
-  }
-})
-}
-
-
-
-};
-let resultsClickjoin = new SystemWindoMenuIconeJoin();
-
-resultsClickjoin.clickJoin();
-resultsClickjoin.clickJoinClose();
-
-
-
-// system  window  icone  Join end
-
 
 
 
@@ -304,6 +189,10 @@ this._systemWindowIconHood = document.querySelector('.systemWindowIconHood');
  this._hood = document.querySelector('.hood');
  this._textIconHoodSystemWindow = document.querySelector('.textIconHoodSystemWindow');
  this._clickOnIcone = false;
+ this._buttonHood = document.getElementById('buttonHood');
+ this._hoodText = document.querySelector('.hoodText');
+ 
+ 
 }
 
 get clickOnIcone ()
@@ -311,6 +200,14 @@ get clickOnIcone ()
  return this._clickOnIcone; 
 }
 
+get hoodText ()
+{
+ return this._hoodText;
+}
+get buttonHood ()
+{
+ return  this._buttonHood; 
+}
 
 get textIconHoodSystemWindow ()
 {
@@ -348,6 +245,16 @@ set clickOnIcone(value)
  this._clickOnIcone = value; 
 }
 
+set buttonHood (value)
+{
+   this._buttonHood = value; 
+}
+
+set hoodText (value)
+{
+  this._hoodText = value;
+}
+
 
 set iconHoodButtonX (value)
 {
@@ -363,6 +270,15 @@ set textIconHoodSystemWindow (value)
 
 clickHood()
 {
+
+  this._buttonHood.addEventListener('click', () =>
+{
+  this._buttonHood.style.display = 'none';
+  this._hoodText.style.display = 'none';
+
+
+  })
+
  this._systemWindowIconHood.style.display = 'none'
  this._hood.addEventListener('click', () =>
  {

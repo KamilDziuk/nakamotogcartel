@@ -91,6 +91,28 @@ height: 90px !important;
    box-shadow:-3px -3px 0 0 #fff, 2px 2px 0 1px #a7a7a7
 }
 
+
+#buttonHood2
+{
+  top: 35%;
+  font-size: 30px;
+  border: none;
+   position: absolute;
+   display: flex;
+   width: 8rem;
+   margin: 0rem 1rem;
+   padding: 0.50rem 0rem;
+   -webkit-box-pack: center;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-weight: 400;
+   left: 33%;
+   font-family: "Pixelify Sans", sans-serif;
+   box-shadow:-3px -3px 0 0 #fff, 2px 2px 0 1px #a7a7a7;
+   display: none;
+   
+}
 .blockCenter
 {
 
@@ -266,7 +288,6 @@ background: #a7a7a7;
   width: 140px;
 
 }
-
 
 
 
@@ -1860,13 +1881,7 @@ p{
   @media (max-width: 695px) {
 
   /* icons and text for ico start */
-  .textIconJoin
-  {
-    left: 3.7%;
-    top: 70%;
-    font-size: 30px;
-    
-  }
+
   
   
   .textIconHood
@@ -1943,13 +1958,21 @@ p{
   
   #buttonHood
   {
-    top: 40%;
-left: 24%;
+display: none;
     
   }
   
   
-
+  #buttonHood2
+  {
+    display: block  ;
+    top: 40%;
+left: 24%;
+z-index: 2;
+  
+  }
+  
+  
   
   
   /* clock on the top bar start */
@@ -1976,19 +1999,6 @@ left: 24%;
 
 
 /* system window  icone start  */
-.systemWindowIconJoin
-{
-
-  top: -530px;
- font-size: 30px;
- left: 10%;
-
-  position: absolute;
-  display: flex;
-  width: 300px;
-  height: 500px ;
-
-}
 
 
 
