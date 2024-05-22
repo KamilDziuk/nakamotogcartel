@@ -772,12 +772,13 @@ p{
 footer
 {
   position:absolute;
-  top: 86%;
-  height: 200px;
+
+  height: 80px;
   width: 100%;
   padding: 0;
   background-color:rgb(236, 236, 236);
   box-shadow: inset;
+  bottom: 0 !important;
 }
 /* main bar end */
 
@@ -910,7 +911,7 @@ a {
 /*  moving text start */
 .movingText {
  
-  top:  15px;
+  top:  0 !important;
   height: 150px;
   max-width: 53%;
   margin-left: 195px;
@@ -1280,13 +1281,7 @@ p{
 /* icons and text for ico end */
 
 /* main bar start */
-footer
-{
-  top: 86%;
-  height: 200px;
-  width: 100%;
-  padding: 0;
-}
+
 /* main bar end */
 
 /* button on the main barr start */
@@ -1346,7 +1341,7 @@ footer
 {
 
   left:75% !important;
-  top: 19%;
+  top: 30% !important;
   font-size: 30px;
 }
 /* clock on the top bar end */
@@ -1356,7 +1351,7 @@ footer
 {
 
   left: 72% !important;
-  top: 18%;
+  top: 25% !important;
   font-size: 45px !important; 
 
 }
@@ -1548,13 +1543,7 @@ a {
   /* icons and text for ico end */
   
   /* main bar start */
-  footer
-  {
-    top: 86%;
-    height: 200px;
-    width: 100%;
-    padding: 0;
-  }
+
   /* main bar end */
   
   /* button on the main barr start */
@@ -1933,13 +1922,7 @@ p{
   /* icons and text for ico end */
   
   /* main bar start */
-  footer
-  {
-    top: 86%;
-    height: 200px;
-    width: 100%;
-    padding: 0;
-  }
+
   /* main bar end */
   
   /* button on the main barr start */
@@ -2306,13 +2289,7 @@ p{
     /* icons and text for ico end */
     
     /* main bar start */
-    footer
-    {
-      top: 86%;
-      height: 200px;
-      width: 100%;
-      padding: 0;
-    }
+
     /* main bar end */
     
     /* button on the main barr start */
@@ -2429,13 +2406,7 @@ p{
     /* icons and text for ico end */
     
     /* main bar start */
-    footer
-    {
-      top: 86%;
-      height: 200px;
-      width: 100%;
-      padding: 0;
-    }
+  
     /* main bar end */
     
     /* button on the main barr start */
@@ -2538,13 +2509,7 @@ p{
     /* icons and text for ico end */
     
     /* main bar start */
-    footer
-    {
-      top: 86%;
-      height: 200px;
-      width: 100%;
-      padding: 0;
-    }
+
     /* main bar end */
     
     /* button on the main barr start */
@@ -2670,13 +2635,7 @@ p{
     /* icons and text for ico end */
     
     /* main bar start */
-    footer
-    {
-      top: 86%;
-      height: 200px;
-      width: 100%;
-      padding: 0;
-    }
+
     /* main bar end */
     
     /* button on the main barr start */
@@ -2825,13 +2784,7 @@ p{
       /* icons and text for ico end */
       
       /* main bar start */
-      footer
-      {
-        top: 86%;
-        height: 200px;
-        width: 100%;
-        padding: 0;
-      }
+ 
       /* main bar end */
       
       /* button on the main barr start */
