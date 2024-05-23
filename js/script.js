@@ -293,7 +293,7 @@ clickHood()
   this._buttonHood2.addEventListener('click', () =>
     {
 
-       window.open("https://www.tropee.com/nakamotoogscartel", "", "width=10,height=10,left=,top=100");
+       window.open("https://www.tropee.com/nakamotoogscartel", "", "width=10,height=10,left=300,top=450");
        this._systemWindowIconHood.style.display = 'none';
     
     
