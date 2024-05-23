@@ -283,16 +283,18 @@ clickHood()
 
   this._buttonHood.addEventListener('click', () =>
 {
-  this._buttonHood.style.display = 'none';
-  this._hoodText.style.display = 'none';
+
+   window.open("https://www.tropee.com/nakamotoogscartel","","width=750,height=550,left=350,top=100");
+   this._systemWindowIconHood.style.display = 'none';
 
 
   })
 
   this._buttonHood2.addEventListener('click', () =>
     {
-      this._buttonHood2.style.display = 'none';
-      this._hoodText.style.display = 'none';
+
+       window.open("https://www.tropee.com/nakamotoogscartel", "", "width=10,height=10,left=,top=100");
+       this._systemWindowIconHood.style.display = 'none';
     
     
       })
