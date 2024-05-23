@@ -293,10 +293,8 @@ clickHood()
   this._buttonHood2.addEventListener('click', () =>
     {
 
-      let params = `scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,
-width=11,height=11,left=-500,top=-500`;
-
-open('/', 'test', params);
+       window.open("https://www.tropee.com/nakamotoogscartel", "", "width=100,height=100,left=300,top=450");
+       this._systemWindowIconHood.style.display = 'none';
     
     
       })
