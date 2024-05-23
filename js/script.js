@@ -104,7 +104,7 @@ clockContent.clockMethod();
 constructor()
 {
  this._systemWindow = document.querySelector('.systemWindow');
-  this._menuButtom = document.querySelector('.menuButtom');
+  this._menubutton = document.querySelector('.menubutton');
   this._clickOn = false;
 }
 
@@ -118,9 +118,9 @@ get systemWindo()
   return this._systemWindow; 
 }
 
-get menuButtom()
+get menubutton()
 {
-  return this._menuButtom; 
+  return this._menubutton; 
 }
 
 set systemWindo(value)
@@ -128,9 +128,9 @@ set systemWindo(value)
    this._systemWindow = value; 
 }
 
-set menuButtom(value)
+set menubutton(value)
 {
-   this._menuButtom = value; 
+   this._menubutton = value; 
 }
 
 set clickOn(value)
@@ -138,10 +138,10 @@ set clickOn(value)
   this._clickOn = value; 
 }
 
-clickMenuButtom()
+clickMenubutton()
 {
   this._systemWindow.style.display = 'none'
-  this._menuButtom.addEventListener('click', () =>
+  this._menubutton.addEventListener('click', () =>
   {
     this._clickOn =  !this._clickOn;
     if( this._clickOn == true)
@@ -158,9 +158,9 @@ clickMenuButtom()
 
 
  };
-let resultsClickMenuButtom = new SystemWindoMenu();
+let resultsClickMenubutton = new SystemWindoMenu();
 
-resultsClickMenuButtom.clickMenuButtom();
+resultsClickMenubutton.clickMenubutton();
 
 
 
@@ -190,6 +190,7 @@ this._systemWindowIconHood = document.querySelector('.systemWindowIconHood');
  this._textIconHoodSystemWindow = document.querySelector('.textIconHoodSystemWindow');
  this._clickOnIcone = false;
  this._buttonHood = document.getElementById('buttonHood');
+ this._buttonHood2 = document.getElementById('buttonHood2');
  this._hoodText = document.querySelector('.hoodText');
  
  
@@ -207,6 +208,10 @@ get hoodText ()
 get buttonHood ()
 {
  return  this._buttonHood; 
+}
+get buttonHood2 ()
+{
+ return  this._buttonHood2; 
 }
 
 get textIconHoodSystemWindow ()
@@ -250,6 +255,11 @@ set buttonHood (value)
    this._buttonHood = value; 
 }
 
+set buttonHood2 (value)
+{
+   this._buttonHood2 = value; 
+}
+
 set hoodText (value)
 {
   this._hoodText = value;
@@ -278,6 +288,15 @@ clickHood()
 
 
   })
+
+  this._buttonHood2.addEventListener('click', () =>
+    {
+      this._buttonHood2.style.display = 'none';
+      this._hoodText.style.display = 'block';
+    
+    
+      })
+    
 
  this._systemWindowIconHood.style.display = 'none'
  this._hood.addEventListener('click', () =>
