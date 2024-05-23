@@ -292,7 +292,7 @@ clickHood()
   this._buttonHood2.addEventListener('click', () =>
     {
       this._buttonHood2.style.display = 'none';
-      this._hoodText.style.display = 'block';
+      this._hoodText.style.display = 'none';
     
     
       })
