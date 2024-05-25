@@ -343,7 +343,7 @@ value
 
   this._address.addEventListener('click', () =>
     {
-      this.hoodText.innerHTML = `<br><br> <br> <br> <br> <br> <br>  Enter Ordinals Wallet Address`;
+      this.hoodText.innerHTML = `<br><br> Don't miss out - Join the whitelist to secure your spot. <br> Enter Ordinals Wallet Address`;
       this._whitelistForm.style.display = 'block';
       this._buttonHood.style.display = 'none';
       this._systemWindowIconHood.style.display = 'block';
