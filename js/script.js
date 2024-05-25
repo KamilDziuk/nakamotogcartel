@@ -343,7 +343,7 @@ value
 
   this._address.addEventListener('click', () =>
     {
-      this.hoodText.innerHTML = `<br><br> <br> <br> <br> <br> <br>  Enter Ordinals Wallet Address i pole do wprowadzenia adresu.`;
+      this.hoodText.innerHTML = `<br><br> <br> <br> <br> <br> <br>  Enter Ordinals Wallet Address`;
       this._whitelistForm.style.display = 'block';
       this._buttonHood.style.display = 'none';
       this._systemWindowIconHood.style.display = 'block';
