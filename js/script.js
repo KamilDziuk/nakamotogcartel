@@ -190,11 +190,30 @@ this._systemWindowIconHood = document.querySelector('.systemWindowIconHood');
  this._textIconHoodSystemWindow = document.querySelector('.textIconHoodSystemWindow');
  this._clickOnIcone = false;
  this._buttonHood = document.getElementById('buttonHood');
- this._buttonHood2 = document.getElementById('buttonHood2');
  this._hoodText = document.querySelector('.hoodText');
- 
+ this._address = document.querySelector(".address");
+ this._blockCenterIconHoodText = document.querySelector(".blockCenterIconHoodText");
+ this._whitelistForm = document.querySelector(".whitelistForm");
  
 }
+
+
+get whitelistForm()
+{
+  return this._whitelistForm;
+}
+
+
+get address()
+{
+  return this._address;
+}
+
+get blockCenterIconHoodText()
+{
+  return this._blockCenterIconHoodText;
+}
+
 
 get clickOnIcone ()
 {
@@ -208,10 +227,6 @@ get hoodText ()
 get buttonHood ()
 {
  return  this._buttonHood; 
-}
-get buttonHood2 ()
-{
- return  this._buttonHood2; 
 }
 
 get textIconHoodSystemWindow ()
@@ -240,6 +255,22 @@ set systemWindo(value)
   this._systemWindowIconHood = value; 
 }
 
+set blockCenterIconHoodText(value)
+{
+  this._blockCenterIconHoodText = value; 
+}
+
+
+set whitelistForm(value)
+{
+  this._whitelistForm = value;
+}
+
+set address(value)
+{
+  this._address = value;
+}
+
 set hood(value)
 {
   this._hood = value; 
@@ -253,11 +284,6 @@ set clickOnIcone(value)
 set buttonHood (value)
 {
    this._buttonHood = value; 
-}
-
-set buttonHood2 (value)
-{
-   this._buttonHood2 = value; 
 }
 
 set hoodText (value)
@@ -286,37 +312,44 @@ clickHood()
 
    window.open("https://www.tropee.com/nakamotoogscartel","","width=750,height=550,left=350,top=100");
    this._systemWindowIconHood.style.display = 'none';
-
+value
 
   })
 
-  this._buttonHood2.addEventListener('click', () =>
-    {
 
-       window.open("https://www.tropee.com/nakamotoogscartel", "", "width=100,height=100,left=300,top=450");
-       this._systemWindowIconHood.style.display = 'none';
-    
-    
-      })
     
 
  this._systemWindowIconHood.style.display = 'none'
  this._hood.addEventListener('click', () =>
  {
- 
+  this.hoodText.innerHTML = `<br><br> <b>Join</b> The Hood and Collect Points to Grab Rewards<br>`;
+  this._blockCenterIconHoodText.innerHTML = "Hood"
        this._systemWindowIconHood.style.display = 'block'
+       this._whitelistForm.style.display = 'none'
+       this._buttonHood.style.display = 'block';
      
-   
  })
 
 
  this._textIconHoodSystemWindow.addEventListener('click', () =>
   {
-  
+    this.hoodText.innerHTML = `<br><br> <b>Join</b> The Hood and Collect Points to Grab Rewards<br>`;
+    this._blockCenterIconHoodText.innerHTML = "Hood"
+    this._whitelistForm.style.display = 'none'
         this._systemWindowIconHood.style.display = 'block'
-      
-    
+        this._buttonHood.style.display = 'block';
+        
   })
+
+  this._address.addEventListener('click', () =>
+    {
+      this.hoodText.innerHTML = `<br><br> <br> <br> <br> <br> <br>  Enter Ordinals Wallet Address i pole do wprowadzenia adresu.`;
+      this._whitelistForm.style.display = 'block';
+      this._buttonHood.style.display = 'none';
+      this._systemWindowIconHood.style.display = 'block';
+      this._blockCenterIconHoodText.innerHTML = "Whitelist";
+      
+    })
 
 }
 
@@ -337,9 +370,6 @@ if( this._clickOnIcone == true)
   }
 })
 }
-
-
-
 };
 let resultsClickhood = new SystemWindoMenuIconeHood();
 
@@ -349,6 +379,41 @@ resultsClickhood.clickHoodClose();
 
 
 // system  window  icone  Hood end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // system  window  icone  Vision  start
@@ -520,11 +585,6 @@ resultsClickvision.clickVisionClose();
 
 
 
-
-
-
-
-
 // movable block start
 
 
@@ -607,3 +667,55 @@ resultsClickvision.clickVisionClose();
   })();
 
   // movable block end
+
+
+
+
+
+
+
+
+
+// Whitelist from  start 
+
+class Whitelist extends SystemWindoMenuIconeHood
+
+{
+constructor()
+{
+ super();
+}
+sendWhitelist()
+{
+  let inputWhitelist  = document.querySelector(".inputWhitelist");
+ let send = document.querySelector(".send");
+ send.addEventListener("click", function()
+{
+
+  Email.send({
+    SecureToken : "66c5bcae-7cb9-4cfe-a26d-40a94c3c93ca",
+    To : 'nakamotogcartel@gmail.com',
+    From : "nakamotogcartel@gmail.com",
+    Subject : `New address added to the whitelist. New address: ${inputWhitelist.value}`,
+    Body : ` New address: ${inputWhitelist.value}`
+  })
+})
+
+}
+ 
+};
+let resultsWhitelist = new Whitelist()
+
+resultsWhitelist.sendWhitelist()
+
+
+
+
+// Whitelist from  end 
+
+
+
+
+
+
+  

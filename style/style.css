@@ -40,7 +40,23 @@ overflow-x: hidden !important;
 }
 
 
+.textIconAddress
+{
+  position: absolute;
+  left: 3% !important;
+ top: 0;
+top:11.5%;
 
+  font-size: 30px;
+}
+
+
+.whitelistForm
+{
+ position: absolute;
+  top: 40%;
+  left: 34%;
+}
 
 .textIconVision
 {
@@ -69,6 +85,16 @@ width: 90px !important;
 height: 90px !important;
 }
 
+.address
+{
+position: absolute;
+left: 5%;
+top: 1% !important;
+width: 90px !important;
+height: 90px !important;
+}
+
+
 
 
 #buttonHood
@@ -92,9 +118,9 @@ height: 90px !important;
 }
 
 
-#buttonHood2
+.send
 {
-  top: 35%;
+  top: 140px;
   font-size: 30px;
   border: none;
    position: absolute;
@@ -107,12 +133,28 @@ height: 90px !important;
    align-items: center;
    text-align: center;
    font-weight: 400;
-   left: 33%;
+   left: 0%;
    font-family: "Pixelify Sans", sans-serif;
-   box-shadow:-3px -3px 0 0 #fff, 2px 2px 0 1px #a7a7a7;
-   display: none;
-   
+   box-shadow:-3px -3px 0 0 #fff, 2px 2px 0 1px #a7a7a7
 }
+.inputWhitelist
+
+{
+  font-size: 12px;
+  border: none;
+   position: absolute;
+left: -90px;
+   width: 21rem;
+   margin: 0rem 1rem;
+   padding: 0.50rem 0rem;
+   font-weight: 400;
+   font-family: "Pixelify Sans", sans-serif;
+   box-shadow:-3px -3px 0 0 #fff, 2px 2px 0 1px #a7a7a7
+}
+
+
+
+
 .blockCenter
 {
 
@@ -656,7 +698,7 @@ p{
   border: none;
    position: absolute;
     left: 1%;
-   width: 490px;
+   width: 500px !important; 
    height:35px;
    margin: 0rem 0rem;
    -webkit-box-pack: center;
@@ -1005,6 +1047,11 @@ a {
   
 }
 
+.textIconAddress
+{
+  position: absolute;
+top:12.5% !important;
+}
 
 .textIconHood
 {
@@ -1498,7 +1545,11 @@ a {
     font-size: 30px;
   }
   
-  
+  .textIconAddress
+  {
+    top: 13.5% !important;
+    left: 2.5% !important;
+  }
   
   
   .textIconVision
@@ -1941,21 +1992,37 @@ p{
   
   #buttonHood
   {
-display: none;
-    
-  }
   
-  
-  #buttonHood2
-  {
-    display: block  ;
     top: 40%;
 left: 24%;
 z-index: 2;
   
   }
   
+  .send
+  {
+  font-size: 17px;
+    top:90px;
+left: -30px;
+z-index: 2;
   
+  }
+
+
+
+  .hoodText
+  { 
+    position: absolute;
+    top: 100px ;
+    font-size: 17px;
+  }
+  .inputWhitelist
+
+{
+font-size: 9px;
+width: 250px;
+}
+
   
   
   /* clock on the top bar start */
@@ -2040,7 +2107,7 @@ z-index: 2;
 {
   top: 1%;
   font-size: 30px;
-   width: 290px;
+   width: 300px !important;
    height:35px;
 }
 
@@ -2366,7 +2433,11 @@ p{
       font-size: 20px;
     }
     
-    
+    .textIconAddress
+    {
+      font-size: 20px;
+      top:14% !important;
+    }
     
     
     .textIconVision
@@ -2393,7 +2464,11 @@ p{
     height: 60px;
     }
     
-    
+    .address
+    {
+      left: 3%;
+ 
+    }
     .vision
     {
     left: 2% !important;
