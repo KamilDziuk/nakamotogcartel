@@ -19,36 +19,12 @@ overflow-x: hidden !important;
 }
 
 /* icons and text for ico start */
-.textIconJoin
-{
-  position: absolute;
-  left: 45% !important;
-  top: 68% !important;
-  font-size: 30px;
-  padding-top: 5px;
-  
-}
 
 
-.textIconHood
-{
-  position: absolute;
-  left: 5% !important;
-  padding-top: 5px !important;
-
-  font-size: 30px;
-}
 
 
-.textIconAddress
-{
-  position: absolute;
-  left: 3% !important;
- top: 0;
-top:11.5%;
 
-  font-size: 30px;
-}
+
 
 
 .whitelistForm
@@ -58,40 +34,104 @@ top:11.5%;
   left: 34%;
 }
 
-.textIconVision
-{
-  position: absolute;
-  left: 4.5% !important;
-  padding-top: 5px !important;
 
-  font-size: 30px;
-}
 
-.twitter
-{
-position: absolute;
-left: 5%;
-top: 64% !important;
-width: 70px;
-height: 70px;
-}
-.hood
-{
-position: absolute;
-left: 5%;
-top: 21% !important;
 
-width: 90px !important;
-height: 90px !important;
-}
+
+
+
+
+
+
+
 
 .address
 {
 position: absolute;
-left: 5%;
-top: 1% !important;
-width: 90px !important;
-height: 90px !important;
+left: 7%;
+top: 5% !important;
+width: 80px !important;
+height: 80px !important;
+}
+
+
+.textIconAddress
+{
+  position: absolute;
+
+  font-size: 17px !important;
+left: 6.8% !important;
+top:17%;
+
+}
+
+
+
+
+.hood
+{
+position: absolute;
+left: 7% !important;
+top: 25% !important;
+
+width: 80px !important;
+height: 80px !important;
+}
+
+
+.textIconHood
+{
+  position: absolute;
+  font-size: 17px !important;
+  top: 37% !important;
+
+padding-left: 8%  !important;
+}
+
+
+
+.vision
+{
+position: absolute;
+left: 7%;
+top: 45% !important;
+width: 80px !important;
+height: 80px !important;
+}
+
+
+
+.textIconVision
+{
+  position: absolute;
+  left: 7.7% !important;
+  top: 56.3% !important;
+  font-size: 17px !important;
+}
+
+
+
+
+
+
+
+.twitter
+{
+position: absolute;
+left: 7%;
+top: 65% !important;
+width: 80px !important;
+height: 80px !important;
+}
+
+.textIconJoin
+{
+  position: absolute;
+  left: 6.5% !important;
+  top: 74.5% !important;
+  font-size: 17px !important;
+  padding-top: 9px;
+  
 }
 
 
@@ -155,21 +195,7 @@ left: -90px;
 
 
 
-.blockCenter
-{
 
-}
-
-
-
-.vision
-{
-position: absolute;
-left: 4.5% !important;
-top: 42% !important;
-width: 70px;
-height: 70px;
-}
 
 
 .connectTwitter
@@ -938,7 +964,7 @@ footer
 .fa
 {
   position: absolute;
-  left: 67% !important;
+  left: 6% !important;
   top: 18%;
   font-size: 45px !important; 
 
@@ -1039,64 +1065,8 @@ a {
 
 
 /* icons and text for ico start */
-.textIconJoin
-{
-  left: 3.7%;
-  top: 69% !important;
-  font-size: 30px;
-  
-}
-
-.textIconAddress
-{
-  position: absolute;
-top:12.5% !important;
-}
-
-.textIconHood
-{
-  
-  left: 2.5%;
-
-  top: 31%;
-  font-size: 30px;
-}
 
 
-
-
-.textIconVision
-{
- 
-  left: 2.5%;
-  top: 54% !important;
-  font-size: 30px;
-}
-
-.twitter
-{
-
-left: 5%;
-top: 60%;
-width: 70px;
-height: 70px;
-}
-.hood
-{
-left: 5%;
-top: 20%;
-width: 70px;
-height: 70px;
-}
-
-
-.vision
-{
-left: 5%;
-top: 40%;
-width: 70px;
-height: 70px;
-}
 
 
 
@@ -1387,7 +1357,7 @@ p{
 .clockOnTheTaskbar
 {
 
-  left:75% !important;
+  left:76% !important;
   top: 30% !important;
   font-size: 30px;
 }
@@ -1487,7 +1457,7 @@ a {
 .clockOnTheTaskbar
 {
 
-  left:77%;
+  left:70%;
   top: 19%;
   font-size: 30px;
 }
@@ -1527,68 +1497,10 @@ a {
 
 
   /* icons and text for ico start */
-  .textIconJoin
-  {
-    left: 2.5% !important;
-    top: 71.5% !important;
-    font-size: 30px;
-    
-  }
-  
-  
-  .textIconHood
-  {
-    
-    left: 2.5%;
-  
-    top: 32.5% !important;
-    font-size: 30px;
-  }
-  
-  .textIconAddress
-  {
-    top: 13.5% !important;
-    left: 2.5% !important;
-  }
-  
-  
-  .textIconVision
-  {
-   
-    left: 2.5%;
-    top: 54.5% !important;
-    font-size: 30px;
-  }
-  
-  .twitter
-  {
-  
-  left: 5% ;
-  top: 60%;
-  width: 70px;
-  height: 70px;
-  }
-  .hood
-  {
-  left: 5%;
-  top: 20%;
-  width: 70px;
-  height: 70px;
-  }
-  
-  
 
 
-
-
-
-  .vision
-  {
-  left: 5%;
-  top: 40%;
-  width: 70px;
-  height: 70px;
-  }
+  
+  
   
   
   /* icons and text for ico end */
@@ -1640,6 +1552,7 @@ a {
     left: 46%;
     top: 18%;
     font-size: 45px !important; 
+
   
   }
   /* clock icone end  */
@@ -1923,51 +1836,22 @@ p{
   /* icons and text for ico start */
 
   
-  
-  .textIconHood
-  {
-    
-    left: 2.5%;
-  
-    top: 33% !important; 
-    font-size: 30px;
-  }
-  
-  
-  
-  
-  .textIconVision
-  {
-   
-    left: 2.5%;
-    top: 55.5% !important;
-    font-size: 30px;
-  }
-  
-  .twitter
-  {
-  
-  left: 5%;
-  top: 60%;
-  width: 70px;
-  height: 70px;
-  }
-  .hood
-  {
-  left: 5%;
-  top: 20%;
-  width: 70px;
-  height: 70px;
-  }
-  
-  
-  .vision
-  {
-  left: 5%;
-  top: 40%;
-  width: 70px;
-  height: 70px;
-  }
+
+
+.textIconHood
+{
+left: 2% !important;
+}
+
+
+.textIconVision
+{
+ 
+  left:8.5% !important;
+
+}
+
+
   
   
   /* icons and text for ico end */
@@ -2298,60 +2182,9 @@ p{
 
 
     /* icons and text for ico start */
-    .textIconJoin
-    {
-      left: 3%;
-      top: 70%;
-      font-size: 30px;
-      
-    }
+
     
-    
-    .textIconHood
-    {
-      
-      left: 2.5%;
-    
-      top: 31%;
-      font-size: 30px;
-    }
-    
-    
-    
-    
-    .textIconVision
-    {
-     
-      left: 2.5%;
-      top: 50%;
-      font-size: 30px;
-    }
-    
-    .twitter
-    {
-    
-    left: 5%;
-    top: 60%;
-    width: 70px;
-    height: 70px;
-    }
-    .hood
-    {
-    left: 5%;
-    top: 20%;
-    width: 70px;
-    height: 70px;
-    }
-    
-    
-    .vision
-    {
-    left: 5%;
-    top: 40%;
-    width: 70px;
-    height: 70px;
-    }
-    
+
     
     /* icons and text for ico end */
     
@@ -2415,67 +2248,9 @@ p{
 
 
     /* icons and text for ico start */ 
-    .textIconJoin
-    {
-      left: 2% !important;
-      top: 69%;
-      font-size: 20px;
-      
-    }
-    
-    
-    .textIconHood
-    {
-      
-      left: 7% !important;
-    
-      top: 34% !important;
-      font-size: 20px;
-    }
-    
-    .textIconAddress
-    {
-      font-size: 20px;
-      top:15.5% !important;
-    }
-    
-    
-    .textIconVision
-    {
-     
-      left: 5.6% !important;
-      top: 55.5% !important;
-      font-size: 20px;
-    }
-    
-    .twitter
-    {
-    
-    left: 5.5% !important;
-    top: 60%;
-    width: 60px;
-    height: 60px;
-    }
-    .hood
-    {
-    left: 3% !important;
-    top: 20%;
-    width: 60px;
-    height: 60px;
-    }
-    
-    .address
-    {
-      left: 3%;
- 
-    }
-    .vision
-    {
-    left: 2% !important;
-    top: 40%;
-    width: 60px;
-    height: 60px;
-    }
+   
+
+
     
     
     /* icons and text for ico end */
@@ -2652,33 +2427,23 @@ p{
   @media (max-width: 380px) {
 
     /* icons and text for ico start */ 
-    /* .textIconJoin
-    {
-      left: 3.7%;
-      top: 68%;
-      font-size: 20px;
-      
-    }
-    
-    
+
     .textIconHood
     {
-      
-      left: 2.5%;
-    
-      top: 29%;
-      font-size: 20px;
+    left:3% !important;
     }
-    
-    
     
     
     .textIconVision
     {
      
-      left: 2.5%;
-      top: 48%;
-      font-size: 20px;
+      left:8.5% !important;
+    
+    }
+    
+    .textIconJoin
+    {
+      left:3% !important;
     }
     
     .twitter

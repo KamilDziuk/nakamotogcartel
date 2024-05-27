@@ -2,19 +2,19 @@
 /* loading start  */
 #loading {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 43%;
+
 
     border: #ffffff 2px solid;
   
-    margin-top: -21px;
-    margin-left: -110px;
     width: 200px;
     overflow: hidden;
     padding: 6px;
     transition: opacity 1s;
     height: 30px;
     pointer-events: none;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   
   #loading ul {
@@ -25,6 +25,7 @@
     white-space: no-wrap;
     width: 300px;
     animation: translate 4s infinite linear;
+    
   }
   
   #loading li {
@@ -105,7 +106,9 @@
     text-align: center;
     position: absolute;
     top: 32% !important;
-    left: 36.5% !important;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
     font-size: 40px;
 color: #ffffff;
 
@@ -118,21 +121,8 @@ color: #ffffff;
 
   @media (max-width: 2000px){
         /* loadingText start */
-        .loadingText   {
-    
-      
-          top: 35%;
-        
-          left: 41%;
-      
-          
-            }
-      
-      
-      
 
-      
-              /* loadingText end */
+        /* loadingText end */
 
   }
 
@@ -142,56 +132,11 @@ color: #ffffff;
     @media (max-width: 1195px){
 
         /* loadingText start */
-      .loadingText   {
-    
-      
-
-    top: 31.5%;
-    left: 38.5%;
-
-    
-      }
-
-
-
-      #loading {
-      
-        top: 50%;
-        left: 54% !important;
-    
-    
-      }
-
+   
         /* loadingText end */
     } 
 
-    @media (max-width: 830px){
 
-
-
-            /* loadingText start */
-            .loadingText   {
-    
-      
-
-              top: 31.5%;
-              left: 33.2% !important;
-         
-              
-                }
-          
-          
-          
-                #loading {
-                
-                  top: 50%;
-                  left: 54% !important;
-              
-              
-                }
-      
-              /* loadingText end */
-          } 
 
           @media (max-width: 695px){
          
@@ -199,25 +144,14 @@ color: #ffffff;
     
       
 
-              top: 38% !important;
-              left: 26% !important;
+          
               font-size:20px !important;
              
             
               
                 }
           
-          
-          
-                #loading {
-                
-                  top: 50%;
-                  left: 52% !important;
-              
-              
-                }
-      
-
+    
           }
           
 
@@ -228,8 +162,8 @@ color: #ffffff;
     
       
 
-              top: 38% !important;
-              left: 25% !important;
+            
+             
               font-size:20px !important;
              
             
@@ -237,13 +171,6 @@ color: #ffffff;
                 }
           
           
-          
-                #loading {
-                
-                  top: 50%;
-                  left: 52% !important;
-              
-              
-                }
-
+      
+           
           }
