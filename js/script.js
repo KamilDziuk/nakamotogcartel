@@ -694,11 +694,17 @@ sendWhitelist()
   // Information about being added to the list start
   setTimeout(() =>
 {
+  // confetti start
+  confetti();
+  // confetti end
   this.hoodText.style.color = 'black'
   this.hoodText.innerHTML = `<br><br> Don't miss out - Join the whitelist to secure your spot. <br> Enter Ordinals Wallet Address`;
   inputWhitelist.value = "";
 },3000)
 
+// confetti start
+confetti();
+// confetti end
 // Information about being added to the list end
 this.hoodText.style.color = '#19a800'
 this.hoodText.innerHTML = `<br><br> Congratulations! Your wallet address has been whitelisted`;
@@ -723,9 +729,3 @@ resultsWhitelist.sendWhitelist()
 
 // Whitelist from  end 
 
-
-
-
-
-
-  
