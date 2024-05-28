@@ -154,9 +154,13 @@ height: 80px !important;
    font-weight: 400;
    left: 33%;
    font-family: "Pixelify Sans", sans-serif;
-   box-shadow:-3px -3px 0 0 #fff, 2px 2px 0 1px #a7a7a7
+   box-shadow:-3px -3px 0 0 #ffffff, 2px 2px 0 1px #a7a7a7
 }
-
+#buttonHood:active
+{
+  width: 7rem;
+  margin: 0rem 0.50rem;
+}
 
 .send
 {
@@ -176,6 +180,13 @@ height: 80px !important;
    left: 0%;
    font-family: "Pixelify Sans", sans-serif;
    box-shadow:-3px -3px 0 0 #fff, 2px 2px 0 1px #a7a7a7
+}
+
+.send:active
+{
+  width: 7rem;
+  margin: 0rem 0.50rem;
+  padding: 0.25rem 0rem;
 }
 .inputWhitelist
 
@@ -876,6 +887,13 @@ footer
   font-family: "Pixelify Sans", sans-serif;
   box-shadow:-3px -3px 0 0 #fff, 2px 2px 0 1px #a7a7a7
 
+}
+
+.menubutton:active
+{
+  width: 7rem;
+  margin: 0rem 0.50rem;
+  padding: 0.25rem 0rem;
 }
 /* button on the main barr end */
 

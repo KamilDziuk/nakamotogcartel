@@ -312,7 +312,7 @@ clickHood()
 
    window.open("https://www.tropee.com/nakamotoogscartel","","width=750,height=550,left=350,top=100");
    this._systemWindowIconHood.style.display = 'none';
-value
+
 
   })
 
@@ -689,9 +689,19 @@ sendWhitelist()
 {
   let inputWhitelist  = document.querySelector(".inputWhitelist");
  let send = document.querySelector(".send");
- send.addEventListener("click", function()
+ send.addEventListener("click", () =>
 {
+  // Information about being added to the list start
+  setTimeout(() =>
+{
+  this.hoodText.style.color = 'black'
+  this.hoodText.innerHTML = `<br><br> Don't miss out - Join the whitelist to secure your spot. <br> Enter Ordinals Wallet Address`;
+  inputWhitelist.value = "";
+},3000)
 
+// Information about being added to the list end
+this.hoodText.style.color = '#19a800'
+this.hoodText.innerHTML = `<br><br> Congratulations! Your wallet address has been whitelisted`;
   Email.send({
     SecureToken : "66c5bcae-7cb9-4cfe-a26d-40a94c3c93ca",
     To : 'nakamotogcartel@gmail.com',
