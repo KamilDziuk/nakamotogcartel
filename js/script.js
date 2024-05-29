@@ -194,7 +194,7 @@ this._systemWindowIconHood = document.querySelector('.systemWindowIconHood');
  this._address = document.querySelector(".address");
  this._blockCenterIconHoodText = document.querySelector(".blockCenterIconHoodText");
  this._whitelistForm = document.querySelector(".whitelistForm");
- 
+ this._textIconAddressSystemWindow = document.querySelector('.textIconAddressSystemWindow');
 }
 
 
@@ -208,6 +208,13 @@ get address()
 {
   return this._address;
 }
+
+
+get textIconAddressSystemWindow()
+{
+  return this._textIconAddressSystemWindow;
+}
+
 
 get blockCenterIconHoodText()
 {
@@ -270,6 +277,14 @@ set address(value)
 {
   this._address = value;
 }
+
+
+set textIconAddressSystemWindow(value)
+{
+  this._textIconAddressSystemWindow = value;
+}
+
+
 
 set hood(value)
 {
@@ -351,6 +366,16 @@ clickHood()
       
     })
 
+    this._textIconAddressSystemWindow.addEventListener('click', () =>
+      {
+        this.hoodText.innerHTML = `<br><br> Don't miss out - Join the whitelist to secure your spot. <br> Enter Ordinals Wallet Address`;
+        this._whitelistForm.style.display = 'block';
+        this._buttonHood.style.display = 'none';
+        this._systemWindowIconHood.style.display = 'block';
+        this._blockCenterIconHoodText.innerHTML = "Whitelist";
+        
+      })
+
 }
 
 
@@ -427,6 +452,7 @@ constructor()
 this._systemWindowIconVision = document.querySelector('.systemWindowIconVision');
  this._vision = document.querySelector('.vision');
  this._textIconVisionSystemWindow = document.querySelector('.textIconVisionSystemWindow');
+
  this._clickOnIcone = false;
 }
 

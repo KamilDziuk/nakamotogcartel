@@ -252,7 +252,7 @@ left: -90px;
   left: 13%;
   top: 80%;
   font-size: 15px;
-  
+  z-index:9;
 }
 
 
@@ -260,7 +260,7 @@ left: -90px;
 .blockCenter
 {
   
-    top: 76%;
+    top: 97%;
     font-size: 30px;
     border: none;
      position: absolute;
@@ -272,7 +272,7 @@ left: -90px;
      -webkit-box-pack: center;
      justify-content: center;
    background-color: #a7a7a7;
-     z-index: 0;
+     z-index:3;
      
   
 }
@@ -307,6 +307,15 @@ left: -90px;
   position: absolute;
   left: 33%;
   top: 65%;
+  font-size: 15px;
+  
+}
+
+.textIconAddressSystemWindow
+{
+  position: absolute;
+  left: 33%;
+  top: 87%;
   font-size: 15px;
   
 }
@@ -368,6 +377,11 @@ background: #a7a7a7;
 
 }
 
+.textIconAddressSystemWindow:hover
+{
+  background: #a7a7a7;
+  width: 140px;
+}
 
 
 
@@ -380,6 +394,16 @@ top: 62%;
 width: 35px;
 height: 35px;
 }
+
+.addressSystemWindow
+{
+position: absolute;
+left: 13%;
+top: 83%;
+width: 35px;
+height: 35px;
+}
+
 .hoodSystemWindow
 {
 position: absolute;
@@ -433,7 +457,8 @@ height:35px !important;
   text-align: center;
   font-weight: 400;
   font-family: "Pixelify Sans", sans-serif;
-  box-shadow:-3px -3px 0 0 #fff, 2px 2px 0 1px #a7a7a7
+  box-shadow:-3px -3px 0 0 #fff, 2px 2px 0 1px #a7a7a7;
+  z-index: 9;
 }
 /* system window end */
 
